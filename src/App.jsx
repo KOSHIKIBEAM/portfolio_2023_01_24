@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Header from "./components/header";
 import Footer from "./components/Footer";
-import SkillsSection from "./SkillsSection";
-import WorkSection from "./WorkSection";
+import SkillsSection from "./components/SkillsSection";
+import WorkSection from "./components/WorkSection";
+import AboutSection from "./components/AboutSection";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
           <main className="pt-24 lg:w-1/2 lg:py-24">
             <SkillsSection />
             <WorkSection />
+            <AboutSection />
             <Footer />
           </main>
         </div>
