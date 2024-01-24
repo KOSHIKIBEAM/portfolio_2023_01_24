@@ -1,5 +1,5 @@
 import React from "react";
-import Circle from "./template/Circle";
+import Circle from "../template/Circle";
 
 const SkillsSection = () => {
   return (
