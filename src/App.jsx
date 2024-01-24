@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <p className="flex text-blue-700">Hello！</p>
+      <p className="flex text-blue-700">Hello!!!!！</p>
     </>
   );
 }
