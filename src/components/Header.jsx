@@ -1,6 +1,5 @@
 import React from "react";
-import Brightness5Icon from "@mui/icons-material/Brightness5";
-import Brightness2Icon from "@mui/icons-material/Brightness2";
+import Toggle from "../template/Toggle";
 
 const Header = () => {
   return (
@@ -48,11 +47,7 @@ const Header = () => {
         </ul>
       </nav>
       <div className="flex flex-col items-start">
-        <button type="button">
-          <Brightness5Icon />
-          <Brightness2Icon />
-        </button>
-
+        <Toggle />
         <select name="language">
           <option value="japanese">日本語</option>
           <option value="english">英語</option>
