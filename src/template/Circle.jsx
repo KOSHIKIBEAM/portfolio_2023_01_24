@@ -109,7 +109,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim1"
+                className="line animate-circleAnim14"
                 cx="75"
                 cy="75"
                 r="70"
@@ -136,7 +136,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim2"
+                className="line animate-circleAnim15"
                 cx="75"
                 cy="75"
                 r="70"
@@ -163,7 +163,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim3"
+                className="line animate-circleAnim1"
                 cx="75"
                 cy="75"
                 r="70"
@@ -190,7 +190,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim4"
+                className="line animate-circleAnim8"
                 cx="75"
                 cy="75"
                 r="70"
@@ -244,7 +244,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim6"
+                className="line animate-circleAnim3"
                 cx="75"
                 cy="75"
                 r="70"
@@ -271,7 +271,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim7"
+                className="line animate-circleAnim13"
                 cx="75"
                 cy="75"
                 r="70"
@@ -298,7 +298,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim8"
+                className="line animate-circleAnim7"
                 cx="75"
                 cy="75"
                 r="70"
@@ -327,7 +327,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim9"
+                className="line animate-circleAnim2"
                 cx="75"
                 cy="75"
                 r="70"
@@ -356,7 +356,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim10"
+                className="line animate-circleAnim11"
                 cx="75"
                 cy="75"
                 r="70"
@@ -383,7 +383,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent65}
-                className="line animate-circleAnim11"
+                className="line animate-circleAnim9"
                 cx="75"
                 cy="75"
                 r="70"
@@ -410,7 +410,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent50}
-                className="line animate-circleAnim12"
+                className="line animate-circleAnim10"
                 cx="75"
                 cy="75"
                 r="70"
@@ -437,7 +437,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent75}
-                className="line animate-circleAnim13"
+                className="line animate-circleAnim4"
                 cx="75"
                 cy="75"
                 r="70"
@@ -464,7 +464,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim14"
+                className="line animate-circleAnim12"
                 cx="75"
                 cy="75"
                 r="70"
@@ -491,7 +491,7 @@ const Circle = () => {
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim15"
+                className="line animate-circleAnim6"
                 cx="75"
                 cy="75"
                 r="70"
