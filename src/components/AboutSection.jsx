@@ -12,6 +12,11 @@ const AboutSection = () => {
           themes and tumbled head first into the rabbit hole of coding and web
           development. Fast-forward to today, and I’ve had the privilege of
           building software for an
+          <p class="mb-4">
+            長崎市を拠点にホームページ制作を行うフリーランスウェブデザイナーです。
+            高品質のWEB制作サービスを提供しております。全て一人で作業を行なっているので、小回りがきくところが自分の武器です。必要な施策をご提案し、一般的な制作会社よりも安価に制作することが可能です。
+            日本全国からのご依頼にも対応していますので「こんなホームページを作りたい」「こんなことで困っている」などございましたらお気軽にお問い合わせください。
+          </p>
           <a
             className="font-bold hover:text-teal-300 focus-visible:text-teal-300"
             href="https://us.mullenlowe.com/"
@@ -153,6 +158,32 @@ const AboutSection = () => {
           .
         </p>
       </div>
+      Hello, I’m Dejan, a multi-talented human specializing in the design,
+      creation and development of digital products. With a career spanning over
+      12 years, I have demonstrated my proficiency across various design
+      disciplines, such as manager, advisor, entrepreneur, front-end developer,
+      music enthusiast, digital nomad, photographer and many more. I believe in
+      defining myself not by my past work, but by the work I aspire to
+      accomplish. I value continuous learning, self-challenge, and meaningful
+      pursuits. Fueled by high energy and boundless enthusiasm, I am easily
+      inspired and always eager to follow my passions. My diverse interests,
+      hobbies, and areas of study fuel my passion for creativity and innovation.
+      I am a fast learner, capable of acquiring new skills and managing multiple
+      projects with ease. I strive to develop expertise in several areas
+      throughout my life and career. As a people-oriented professional with deep
+      emotions and empathy, I am a natural storyteller. I find fulfillment in
+      inspiring others and am at my best when sharing my creative expressions. I
+      have a passion for cultivating expertise across various domains throughout
+      my life and career. As an ENTJ personality type, I am driven, assertive,
+      and forward-thinking. My current focus revolves on enhancing the visual
+      and functional elements of product user interfaces and experiences,
+      emphasizing strategy, vision, research, advisory, and leadership roles.
+      Aligning business goals with customer needs, focusing on digital products,
+      user interface, user experience, and managing end-to-end design
+      initiatives. Actively seeking to broaden my responsibilities, I thrive on
+      tackling diverse challenges within the dynamic design landscape. You can
+      find more information about my biography, experience, skills, education,
+      and other aspects in the attached PDF below.: Download resume
     </section>
   );
 };
