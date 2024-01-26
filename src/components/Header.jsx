@@ -12,20 +12,22 @@ const Header = () => {
           front end developer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          aaaaaaaaaaa aaaaaaaaaaa aaaaaaaaaaa
+          <a
+            href="mailto:koshikibeam@gmail.com"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            koshikibeam@gmail.com
+          </a>
         </p>
+        <h3 className="mt-10 text-lg font-medium tracking-tight sm:text-xl">
+          このたびの能登半島地震に対し、心よりお見舞い申し上げます。
+          <br />
+          皆様の一日も早いご再建をお祈りいたします。
+        </h3>
       </div>
       <nav className="nav hidden lg:block">
         <ul>
-          <li className="pb-14 pl-10">
-            <a href="#about">
-              <span class="relative flex h-3 w-3">
-                <span class="animate-bound absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
-                <span className="text-lg">about</span>
-                <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
-              </span>
-            </a>
-          </li>
           <li className="pb-14 pl-10">
             <a href="#skill">
               <span class="relative flex h-3 w-3">
@@ -46,9 +48,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className="flex flex-col items-start">
+      <div className="flex flex-row items-center">
         <Toggle />
-        <select name="language">
+        <select name="language" className="ml-10">
           <option value="japanese">日本語</option>
           <option value="english">英語</option>
         </select>
