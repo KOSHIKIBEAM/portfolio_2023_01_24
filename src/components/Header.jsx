@@ -21,7 +21,8 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-lg font-medium tracking-tight sm:text-xl">
-          このたびの能登半島地震に対し、心よりお見舞い申し上げます。
+          このたびの能登半島地震に対し、 <br className="sm:hidden block" />
+          心よりお見舞い申し上げます。
           <br />
           皆様の一日も早いご再建をお祈りいたします。
         </h3>
@@ -48,7 +49,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className="flex flex-row items-center">
+      <div className="flex flex-row items-center pt-8 lg:pt-0">
         <Toggle />
         <select name="language" className="ml-10">
           <option value="japanese">日本語</option>
