@@ -17,7 +17,7 @@ const WorkSection = () => {
             </p>
           </div>
           <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 pt-10 lg:mx-0 lg:max-w-none lg:grid-rows-3">
-            <article class="flex max-w-xl flex-col items-start py-8 justify-between border-t border-gray-700">
+            <article class="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700">
               <div class="flex items-center gap-x-4 text-xs">
                 <time datetime="2020-03-16" class="">
                   Mar 16, 2020
@@ -56,7 +56,7 @@ const WorkSection = () => {
                 </div>
               </a>
             </article>
-            <article class="flex max-w-xl flex-col items-start py-8 justify-between border-t border-gray-700">
+            <article class="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700">
               <div class="flex items-center gap-x-4 text-xs">
                 <time datetime="2020-03-16" class="">
                   Mar 16, 2020
@@ -95,7 +95,7 @@ const WorkSection = () => {
                 </div>
               </a>
             </article>
-            <article class="flex max-w-xl flex-col items-start py-8 justify-between border-t border-gray-700">
+            <article class="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700">
               <div class="flex items-center gap-x-4 text-xs">
                 <time datetime="2020-03-16" class="">
                   Mar 16, 2020
@@ -134,7 +134,7 @@ const WorkSection = () => {
                 </div>
               </a>
             </article>
-            <article class="flex max-w-xl flex-col items-start py-8 justify-between border-t border-gray-700">
+            <article class="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700">
               <div class="flex items-center gap-x-4 text-xs">
                 <time datetime="2020-03-16" class="">
                   Mar 16, 2020
@@ -173,7 +173,7 @@ const WorkSection = () => {
                 </div>
               </a>
             </article>
-            <article class="flex max-w-xl flex-col items-start py-8 justify-between border-t border-gray-700">
+            <article class="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700">
               <div class="flex items-center gap-x-4 text-xs">
                 <time datetime="2020-03-16" class="">
                   Mar 16, 2020
