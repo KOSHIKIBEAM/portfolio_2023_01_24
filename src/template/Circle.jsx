@@ -3,7 +3,13 @@ import React from "react";
 const Circle = () => {
   const Box = {
     position: "relative",
-    height: "250px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column",
+  };
+  const Box_sp = {
+    position: "relative",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -21,11 +27,10 @@ const Circle = () => {
   const Percent95 = {
     strokeDashoffset: "calc(440 - (440 * 95) / 100)",
     stroke: "#fc7f03",
-    position: "relative",
-    fill: "none",
-    strokeWidth: "10",
-    strokeDasharray: "440",
-    strokeLinecap: "round",
+  };
+  const Percent95_sp = {
+    strokeDashoffset: "calc(346 - (346 * 95) / 100)",
+    stroke: "#fc7f03",
   };
   const Percent85 = {
     strokeDashoffset: "calc(440 - (440 * 85) / 100)",
@@ -96,413 +101,685 @@ const Circle = () => {
   return (
     <div id="pie-chart" className="content">
       <div className="md:flex md:justify-center md:items-center md:flex-wrap">
-        {/* HTML/CSS */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box_sp}>
+          <div className="w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative w-[120px] h-[120px]">
               <circle
                 style={Circle}
                 className="base"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="line animate-circleAnim14"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                100<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">HTML/CSS</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box_sp}>
+          <div className="w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative w-[120px] h-[120px]">
+              <circle
+                style={Circle}
+                className="base"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="line animate-circleAnim14"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                100<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">HTML/CSS</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box_sp}>
+          <div className="w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative w-[120px] h-[120px]">
+              <circle
+                style={Circle}
+                className="base"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="line animate-circleAnim14"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                100<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">HTML/CSS</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box_sp}>
+          <div className="w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative w-[120px] h-[120px]">
+              <circle
+                style={Circle}
+                className="base"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="line animate-circleAnim14"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                100<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">HTML/CSS</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="md:flex md:justify-center md:items-center md:flex-wrap">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
+                cx="75"
+                cy="75"
+                r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="hidden md:block animate-circleAnim14"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim14"
-                cx="75"
-                cy="75"
-                r="70"
+                className="md:hidden block animate-circleAnim_sp14"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 100<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">HTML/CSS</p>
+            <p className="pt-2.5 text-center font-bold text-lg">HTML/CSS</p>
           </div>
         </div>
-        {/* Sass */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim15"
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block animate-circleAnim15"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
+              <circle
+                style={Percent95_sp}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block animate-circleAnim_sp15"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 95<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">Sass</p>
+            <p className="pt-2.5 text-center font-bold text-lg">Sass</p>
           </div>
         </div>
-        {/* JavaScript */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim1"
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block animate-circleAnim1"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
+              <circle
+                style={Percent95_sp}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block animate-circleAnim_sp1"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 95<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">JavaScript</p>
+            <p className="pt-2.5 text-center font-bold text-lg">JavaScript</p>
           </div>
         </div>
-        {/* WordPress */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim8"
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block animate-circleAnim8"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
+              <circle
+                style={Percent95_sp}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block animate-circleAnim8"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 95<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">WordPress</p>
+            <p className="pt-2.5 text-center font-bold text-lg">WordPress</p>
           </div>
         </div>
-        {/* jQuery */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
+                cx="75"
+                cy="75"
+                r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent85}
+                className="hidden md:block animate-circleAnim5"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent85}
-                className="line animate-circleAnim5"
-                cx="75"
-                cy="75"
-                r="70"
+                className="md:hidden block animate-circleAnim5"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 85<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">jQuery</p>
+            <p className="pt-2.5 text-center font-bold text-lg">jQuery</p>
           </div>
         </div>
-        {/* Figma */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
+                cx="75"
+                cy="75"
+                r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="hidden md:block animate-circleAnim3"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim3"
+                className="md:hidden block animate-circleAnim3"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                100<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">Figma</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
-            </svg>
-            <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
-                100<span className="text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm">Figma</p>
-          </div>
-        </div>
-        {/* Adobe XD */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="hidden md:block animate-circleAnim13"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim13"
+                className="md:hidden block animate-circleAnim13"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                100<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">Adobe XD</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
-            </svg>
-            <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
-                100<span className="text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm">Adobe XD</p>
-          </div>
-        </div>
-        {/* Adobe Photoshop */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                style={Circle}
-                className="base"
-                cx="75"
-                cy="75"
-                r="70"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim7"
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block animate-circleAnim7"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
+              <circle
+                style={Percent95_sp}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block animate-circleAnim7"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 95<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">
+            <p className="pt-2.5 text-center font-bold text-lg">
               Adobe Photoshop
             </p>
           </div>
         </div>
-        {/* Adobe Illustrator */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim2"
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block animate-circleAnim2"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
+              <circle
+                style={Percent95_sp}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block animate-circleAnim2"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 95<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">
+            <p className="pt-2.5 text-center font-bold text-lg">
               Adobe Illustrator
             </p>
           </div>
         </div>
-        {/* Bootstrap */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
               <circle
                 style={Percent95}
-                className="line animate-circleAnim11"
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block animate-circleAnim11"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
+              <circle
+                style={Percent95_sp}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block animate-circleAnim11"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 95<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">Bootstrap</p>
+            <p className="pt-2.5 text-center font-bold text-lg">Bootstrap</p>
           </div>
         </div>
-        {/* gulp */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
+                cx="75"
+                cy="75"
+                r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent65}
+                className="hidden md:block animate-circleAnim9"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent65}
-                className="line animate-circleAnim9"
+                className="md:hidden block animate-circleAnim9"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                65<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">gulp</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
-            </svg>
-            <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
-                65<span className="text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm">gulp</p>
-          </div>
-        </div>
-        {/* react */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent50}
+                className="hidden md:block animate-circleAnim10"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent50}
-                className="line animate-circleAnim10"
+                className="md:hidden block animate-circleAnim10"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                50<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">React</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
-            </svg>
-            <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
-                50<span className="text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm">React</p>
-          </div>
-        </div>
-        {/* tailwind css */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent75}
+                className="hidden md:block animate-circleAnim4"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent75}
-                className="line animate-circleAnim4"
-                cx="75"
-                cy="75"
-                r="70"
+                className="md:hidden block animate-circleAnim4"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 75<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">Tailwind css</p>
+            <p className="pt-2.5 text-center font-bold text-lg">Tailwind css</p>
           </div>
         </div>
-        {/* Motivation*/}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
+                cx="75"
+                cy="75"
+                r="70"
+              ></circle>
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="hidden md:block animate-circleAnim12"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim12"
+                className="md:hidden block animate-circleAnim12"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+            </svg>
+            <div style={Number}>
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
+                100<span className="text-xl">%</span>
+              </h3>
+            </div>
+            <p className="pt-2.5 text-center font-bold text-lg">Motivation</p>
+          </div>
+        </div>
+        <div className="w-1/3 md:h-[250px] h-[200px]" style={Box}>
+          <div className="md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+            <svg className="-rotate-90 relative md:w-[150px] md:h-[150px] w-[120px] h-[120px]">
+              <circle
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440] hidden md:block"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
-            </svg>
-            <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
-                100<span className="text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm">Motivation</p>
-          </div>
-        </div>
-        {/* DeadLine */}
-        <div className="w-1/3" style={Box}>
-          <div className="relative w-[150px] h-[150px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                style={Circle}
-                className="base"
+                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:346] md:hidden block"
+                cx="60"
+                cy="60"
+                r="55"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="hidden md:block animate-circleAnim6"
                 cx="75"
                 cy="75"
                 r="70"
               ></circle>
               <circle
                 style={Percent100}
-                className="line animate-circleAnim6"
-                cx="75"
-                cy="75"
-                r="70"
+                className="md:hidden block animate-circleAnim6"
+                cx="60"
+                cy="60"
+                r="55"
               ></circle>
             </svg>
             <div style={Number}>
-              <h3 className="text-5xl dark:text-gray-50 text-gray-900">
+              <h3 className="text-4xl dark:text-gray-50 text-gray-900">
                 100<span className="text-xl">%</span>
               </h3>
             </div>
-            <p className="pt-2.5 text-center font-bold text-sm">DeadLines</p>
+            <p className="pt-2.5 text-center font-bold text-lg">DeadLines</p>
           </div>
         </div>
       </div>
