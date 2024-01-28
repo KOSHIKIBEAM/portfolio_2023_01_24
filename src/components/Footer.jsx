@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <footer class="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
       <p>
-        Loosely designed in
         <a
           href="https://www.figma.com/"
           class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
@@ -14,6 +13,7 @@ const Footer = () => {
         >
           Figma
         </a>
+        で大まかに設計され、
         <a
           href="https://code.visualstudio.com/"
           class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
@@ -23,6 +23,7 @@ const Footer = () => {
         >
           Visual Studio Code
         </a>
+        、
         <a
           href="https://nextjs.org/"
           class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
@@ -32,6 +33,7 @@ const Footer = () => {
         >
           Next.js
         </a>
+        、
         <a
           href="https://tailwindcss.com/"
           class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
@@ -41,27 +43,38 @@ const Footer = () => {
         >
           Tailwind CSS
         </a>
-        , deployed with
+        を使用しています。
         <a
-          href="https://vercel.com/"
+          href="https://github.co.jp/"
           class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Vercel (opens in a new tab)"
         >
-          Vercel
+          Github
         </a>
-        . All text is set in the
+        でプロジェクトを管理をしています。
+        <br /> すべてのテキストは
         <a
-          href="https://rsms.me/inter/"
+          href="https://fonts.google.com/noto/specimen/Noto+Sans+JP"
           class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Inter (opens in a new tab)"
         >
-          Inter
+          "Noto Sans JP"
         </a>
-        typeface.
+        ,
+        <a
+          href="https://fonts.google.com/specimen/Lora?query=Lora&noto.query=Lora"
+          class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label="Inter (opens in a new tab)"
+        >
+          "Lora"
+        </a>
+        に設定しています。
       </p>
     </footer>
   );
