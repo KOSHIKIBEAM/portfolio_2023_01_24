@@ -1,7 +1,15 @@
 import React from "react";
 import Toggle from "./template/Toggle";
+import SelectButton from "./template/SelectButton";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation();
+
+  const releaseDate = new Date("2024-01-29");
+  const timeDifference = new Date() - releaseDate;
+  const number_of_days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
@@ -27,6 +35,8 @@ const Header = () => {
           皆様の一日も早いご再建をお祈りいたします。
         </h3>
       </div>
+      <h1 className="font-bold">{t("welcome_message")}</h1>
+      <p>{t("days_since_release", { number_of_days })}</p>
       <nav className="nav hidden lg:block">
         <ul>
           <li className="pb-14 pl-10">
@@ -49,12 +59,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className="flex flex-row items-center pt-8 lg:pt-0">
+      <div className="flex justify-start items-center">
         <Toggle />
-        <select name="language" className="ml-10">
-          <option value="japanese">日本語</option>
-          <option value="english">英語</option>
-        </select>
+        <SelectButton />
       </div>
     </header>
   );
