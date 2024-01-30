@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dropdown_show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0rem);
+}
+
+.dropdown_arrow {
+  transform: rotate(180deg);
+  transition: 0.2s ease;
+}
