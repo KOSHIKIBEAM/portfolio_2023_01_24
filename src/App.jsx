@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SkillsSection from "./components/SkillsSection";
 import WorkSection from "./components/WorkSection";
-// import AboutSection from "./components/AboutSection";
+import WorkList from "./data/WorkList";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <main className="pt-24 lg:w-1/2 lg:py-24">
             {/* <AboutSection /> */}
             <SkillsSection />
-            <WorkSection />
+            <WorkSection src={WorkList} />
             <Footer />
           </main>
         </div>
