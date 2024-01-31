@@ -58,7 +58,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -83,7 +83,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -108,7 +108,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -133,7 +133,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -158,7 +158,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -183,7 +183,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -208,7 +208,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -233,7 +233,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -260,7 +260,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -287,7 +287,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -312,7 +312,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -337,7 +337,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -362,7 +362,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -387,7 +387,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
@@ -412,7 +412,7 @@ const SkillsSection = () => {
           <div className="w-[150px] h-[150px]">
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <circle
-                className="relative stroke-slate-50 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
+                className="relative stroke-slate-200 fill-none [stroke-linecap:round] [stroke-width:10] [stroke-dasharray:440]"
                 cx="75"
                 cy="75"
                 r="70"
