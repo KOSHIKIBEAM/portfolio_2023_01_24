@@ -35,8 +35,6 @@ const Header = () => {
           皆様の一日も早いご再建をお祈りいたします。
         </h3>
       </div>
-      <h1 className="font-bold">{t("welcome_message")}</h1>
-      <p>{t("days_since_release", { number_of_days })}</p>
       <nav className="nav hidden lg:block">
         <ul>
           <li className="pb-14 pl-10">
