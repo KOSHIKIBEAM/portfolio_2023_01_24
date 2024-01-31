@@ -7,12 +7,12 @@ const AboutSection = () => {
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
       <div>
-        <p class="mb-4">
+        <p className="mb-4">
           Back in 2012, I decided to try my hand at creating custom Tumblr
           themes and tumbled head first into the rabbit hole of coding and web
           development. Fast-forward to today, and I’ve had the privilege of
           building software for an
-          <p class="mb-4">
+          <p className="mb-4">
             長崎市を拠点にホームページ制作を行うフリーランスウェブデザイナーです。
             高品質のWEB制作サービスを提供しております。全て一人で作業を行なっているので、小回りがきくところが自分の武器です。必要な施策をご提案し、一般的な制作会社よりも安価に制作することが可能です。
             日本全国からのご依頼にも対応していますので「こんなホームページを作りたい」「こんなことで困っている」などございましたらお気軽にお問い合わせください。
@@ -58,7 +58,7 @@ const AboutSection = () => {
           </a>
           .
         </p>
-        <p class="mb-4">
+        <p className="mb-4">
           My main focus these days is building products and leading projects for
           our clients at
           <a
@@ -86,70 +86,70 @@ const AboutSection = () => {
         <p>
           When I’m not at the computer, I’m usually rock climbing, hanging out
           with my wife and two cats, or running around Hyrule searching for
-          <span class="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:">
-            <span class="sr-only">Korok seeds</span>
+          <span className="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:">
+            <span className="sr-only">Korok seeds</span>
             <span
-              class="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]"
+              className="group-hover/korok:text-red-400 transition duration-75 group-hover/korok:-translate-y-px delay-[50ms]"
               aria-hidden="true"
             >
               K
             </span>
             <span
-              class="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]"
+              className="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[75ms]"
               aria-hidden="true"
             >
               o
             </span>
             <span
-              class="group-hover/korok:text-yellow-400 transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]"
+              className="group-hover/korok:text-yellow-400 transition duration-75 group-hover/korok:-translate-y-px delay-[100ms]"
               aria-hidden="true"
             >
               r
             </span>
             <span
-              class="group-hover/korok:text-lime-400 transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]"
+              className="group-hover/korok:text-lime-400 transition duration-75 group-hover/korok:-translate-y-px delay-[125ms]"
               aria-hidden="true"
             >
               o
             </span>
             <span
-              class="group-hover/korok:text-green-400 transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]"
+              className="group-hover/korok:text-green-400 transition duration-75 group-hover/korok:-translate-y-px delay-[150ms]"
               aria-hidden="true"
             >
               k
             </span>
             <span
-              class="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]"
+              className="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]"
               aria-hidden="true"
             >
               &nbsp;
             </span>
             <span
-              class="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]"
+              className="group-hover/korok:text-cyan-400 transition duration-75 group-hover/korok:-translate-y-px delay-[200ms]"
               aria-hidden="true"
             >
               s
             </span>
             <span
-              class="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]"
+              className="group-hover/korok:text-sky-400 transition duration-75 group-hover/korok:-translate-y-px delay-[225ms]"
               aria-hidden="true"
             >
               e
             </span>
             <span
-              class="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]"
+              className="group-hover/korok:text-blue-400 transition duration-75 group-hover/korok:-translate-y-px delay-[250ms]"
               aria-hidden="true"
             >
               e
             </span>
             <span
-              class="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]"
+              className="group-hover/korok:text-indigo-400 transition duration-75 group-hover/korok:-translate-y-px delay-[275ms]"
               aria-hidden="true"
             >
               d
             </span>
             <span
-              class="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]"
+              className="group-hover/korok:text-violet-400 transition duration-75 group-hover/korok:-translate-y-px delay-[300ms]"
               aria-hidden="true"
             >
               s

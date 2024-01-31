@@ -30,7 +30,7 @@ const SelectButton = () => {
 
         <Dropdown.Menu>
           <Dropdown.Item href="#/action-1">
-            <span class="fi fi-gr"></span>
+            <span className="fi fi-gr"></span>
             Action
           </Dropdown.Item>
           <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
