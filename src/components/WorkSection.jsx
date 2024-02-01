@@ -18,13 +18,13 @@ const WorkSection = ({ src }) => {
               <React.Fragment key={elem.key}>
                 <article
                   style={{ order: -i }}
-                  className="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700"
+                  className="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t first:border-b border-gray-700 dark:border-gray-400"
                 >
                   <div className="flex items-center gap-x-4 text-xs">
                     <time datetime={elem.date} className="">
                       {elem.date}
                     </time>
-                    <div className="relative z-10 rounded-full bg-gray-100 px-3 py-1.5 font-medium text-gray-900 hover:bg-slate-900 border-[1px] border-gray-100 duration-[275ms] hover:text-gray-100 hover:border-solid">
+                    <div className="relative z-10 rounded-full px-3 py-1.5 font-medium text-gray-600 dark:text-gray-200 border-[1px] border-gray-600 dark:border-gray-200">
                       {elem.label}
                     </div>
                   </div>

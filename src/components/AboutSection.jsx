@@ -14,7 +14,7 @@ const AboutSection = () => {
         高品質のWEB制作サービスを提供しております。フルリモートで作業を行なっているので、小回りがきくところが自分の武器です。必要な施策をご提案し、一般的な制作会社よりも安価に制作することが可能です。日本全国からのご依頼にも対応していますので「こんなホームページを作りたい」「こんなことで困っている」などございましたらお気軽にお問い合わせください。これからは
         <a
           href="https://ja.react.dev/"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Visual Studio Code (opens in a new tab)"
@@ -24,7 +24,7 @@ const AboutSection = () => {
         、
         <a
           href="https://developer.mozilla.org/ja/docs/Web/JavaScript"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Visual Studio Code (opens in a new tab)"

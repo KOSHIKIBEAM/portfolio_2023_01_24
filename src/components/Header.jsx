@@ -21,7 +21,7 @@ const Header = () => {
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           <a
-            className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+            className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
             href="mailto:koshikibeam@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
@@ -29,7 +29,7 @@ const Header = () => {
             koshikibeam@gmail.com
           </a>
         </p>
-        <h3 className="mt-10 text-lg font-medium tracking-tight sm:text-xl">
+        <h3 className="mt-10 text-lg font-normal tracking-tight sm:text-xl">
           このたびの能登半島地震に対し、 <br className="sm:hidden block" />
           心よりお見舞い申し上げます。
           <br />
