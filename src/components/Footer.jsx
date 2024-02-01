@@ -2,11 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+    <footer className="max-w-md pb-16 text-sm text-slate-600 dark:text-slate-400 sm:pb-0">
       <p>
         <a
           href="https://www.figma.com/"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Figma (opens in a new tab)"
@@ -16,7 +16,7 @@ const Footer = () => {
         で大まかに設計され、
         <a
           href="https://code.visualstudio.com/"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Visual Studio Code (opens in a new tab)"
@@ -26,7 +26,7 @@ const Footer = () => {
         、
         <a
           href="https://nextjs.org/"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Next.js (opens in a new tab)"
@@ -36,7 +36,7 @@ const Footer = () => {
         、
         <a
           href="https://tailwindcss.com/"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Tailwind CSS (opens in a new tab)"
@@ -46,7 +46,7 @@ const Footer = () => {
         を使用しています。
         <a
           href="https://github.co.jp/"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Vercel (opens in a new tab)"
@@ -57,7 +57,7 @@ const Footer = () => {
         <br /> すべてのテキストは
         <a
           href="https://fonts.google.com/noto/specimen/Noto+Sans+JP"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Inter (opens in a new tab)"
@@ -67,7 +67,7 @@ const Footer = () => {
         ,
         <a
           href="https://fonts.google.com/specimen/Lora?query=Lora&noto.query=Lora"
-          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
+          className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Inter (opens in a new tab)"
