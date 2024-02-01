@@ -53,6 +53,9 @@ const SkillsSection = () => {
       id="skill"
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
+      <h2 className="text-3xl font-bold pb-10 tracking-tight sm:text-4xl">
+        Skill
+      </h2>
       <div className="flex justify-center items-center flex-wrap">
         <div className="w-full sm:w-1/3 h-[250px]" style={Box}>
           <div className="w-[150px] h-[150px]">
