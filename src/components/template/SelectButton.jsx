@@ -29,7 +29,7 @@ const SelectButton = () => {
           variant="success"
           id="dropdown-basic"
         >
-          Dropdown Button
+          Translation
         </Dropdown.Toggle>
 
         <Dropdown.Menu>

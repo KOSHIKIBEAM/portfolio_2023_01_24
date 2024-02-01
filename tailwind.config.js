@@ -31,14 +31,6 @@ export default {
             strokeDasharray: "440 440",
           },
         },
-        circleAnim_sp: {
-          "0%": {
-            strokeDasharray: "0 346",
-          },
-          "100%": {
-            strokeDasharray: "346 346",
-          },
-        },
         bound: {
           "0%": { transform: "translateY(0)" },
           "5%": { transform: "translateY(0)" },
