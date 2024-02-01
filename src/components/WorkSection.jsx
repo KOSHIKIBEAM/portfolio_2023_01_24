@@ -14,9 +14,12 @@ const WorkSection = ({ src }) => {
             </h2>
           </div>
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 pt-10 lg:mx-0 lg:max-w-none lg:grid-rows-3">
-            {src.map((elem) => (
+            {src.map((elem, i) => (
               <React.Fragment key={elem.key}>
-                <article className="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700">
+                <article
+                  style={{ order: -i }}
+                  className="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700"
+                >
                   <div className="flex items-center gap-x-4 text-xs">
                     <time datetime={elem.date} className="">
                       {elem.date}
@@ -30,7 +33,7 @@ const WorkSection = ({ src }) => {
                     className="flex items-center justify-between gap-8 pt-3 transition duration-300 hover:opacity-70"
                   >
                     <div className="w-1/4">
-                      <img src={elem.img} alt={elem.title} className="" />
+                      <img src={elem.img} alt={elem.title} className="border" />
                     </div>
                     <div className="group relative w-3/4">
                       <h3 className="text-lg font-semibold leading-6 group-hover:">
@@ -39,7 +42,7 @@ const WorkSection = ({ src }) => {
                           {elem.title}
                         </div>
                       </h3>
-                      <p className="mt-5 line-clamp-3 text-sm leading-6 ">
+                      <p className="mt-2 line-clamp-3 text-sm leading-6 ">
                         {elem.text}
                       </p>
                     </div>
