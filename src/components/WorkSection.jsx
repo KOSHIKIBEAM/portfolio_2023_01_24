@@ -27,7 +27,7 @@ const WorkSection = ({ src }) => {
                   </div>
                   <a
                     href={elem.url}
-                    className="flex items-center justify-between gap-8 pt-3"
+                    className="flex items-center justify-between gap-8 pt-3 transition duration-300 hover:opacity-70"
                   >
                     <div className="w-1/4">
                       <img src={elem.img} alt={elem.title} className="" />

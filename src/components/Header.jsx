@@ -21,6 +21,7 @@ const Header = () => {
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
           <a
+            className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
             href="mailto:koshikibeam@gmail.com"
             target="_blank"
             rel="noreferrer noopener"

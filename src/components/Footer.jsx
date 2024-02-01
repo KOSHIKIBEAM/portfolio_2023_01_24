@@ -6,7 +6,7 @@ const Footer = () => {
       <p>
         <a
           href="https://www.figma.com/"
-          className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Figma (opens in a new tab)"
@@ -16,7 +16,7 @@ const Footer = () => {
         で大まかに設計され、
         <a
           href="https://code.visualstudio.com/"
-          className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Visual Studio Code (opens in a new tab)"
@@ -26,7 +26,7 @@ const Footer = () => {
         、
         <a
           href="https://nextjs.org/"
-          className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Next.js (opens in a new tab)"
@@ -36,7 +36,7 @@ const Footer = () => {
         、
         <a
           href="https://tailwindcss.com/"
-          className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Tailwind CSS (opens in a new tab)"
@@ -46,7 +46,7 @@ const Footer = () => {
         を使用しています。
         <a
           href="https://github.co.jp/"
-          className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Vercel (opens in a new tab)"
@@ -57,7 +57,7 @@ const Footer = () => {
         <br /> すべてのテキストは
         <a
           href="https://fonts.google.com/noto/specimen/Noto+Sans+JP"
-          className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Inter (opens in a new tab)"
@@ -67,7 +67,7 @@ const Footer = () => {
         ,
         <a
           href="https://fonts.google.com/specimen/Lora?query=Lora&noto.query=Lora"
-          className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
+          className="border-b-[1px] border-b-sky-700 hover:text-sky-600 focus-visible:text-sky-700 transition duration-300"
           target="_blank"
           rel="noreferrer noopener"
           aria-label="Inter (opens in a new tab)"
