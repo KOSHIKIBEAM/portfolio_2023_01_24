@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import SkillsSection from "./components/SkillsSection";
 import WorkSection from "./components/WorkSection";
 import WorkList from "./data/WorkList";
+import AboutSection from "./components/AboutSection";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <div className="lg:flex lg:justify-between lg:gap-4 2xl:gap-10 ">
           <Header />
           <main className="pt-24 lg:w-1/2 lg:py-24">
-            {/* <AboutSection /> */}
+            <AboutSection />
             <SkillsSection />
             <WorkSection src={WorkList} />
             <Footer />

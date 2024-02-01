@@ -9,14 +9,11 @@ const WorkSection = ({ src }) => {
       <div className="py-14 sm:py-22">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+            <h2 className="text-3xl pb-10 font-bold tracking-tight sm:text-4xl">
               Work
             </h2>
-            <p className="mt-2 text-lg leading-8 ">
-              Learn how to grow your business with our expert advice.
-            </p>
           </div>
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 pt-10 lg:mx-0 lg:max-w-none lg:grid-rows-3">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 pt-10 lg:mx-0 lg:max-w-none lg:grid-rows-3">
             {src.map((elem) => (
               <React.Fragment key={elem.key}>
                 <article className="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t border-gray-700">

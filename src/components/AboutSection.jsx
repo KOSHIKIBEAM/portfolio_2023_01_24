@@ -6,6 +6,9 @@ const AboutSection = () => {
       id="about"
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
+      <h2 className="text-3xl font-bold pb-10 tracking-tight sm:text-4xl">
+        About
+      </h2>
       <div>
         <p className="mb-4">
           Back in 2012, I decided to try my hand at creating custom Tumblr
