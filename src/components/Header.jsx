@@ -67,9 +67,9 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <div className="flex justify-start items-center">
+      <div className="flex mt-4 md:mt-0 justify-start items-center">
         <Toggle />
-        <SelectButton />
+        {/* <SelectButton /> */}
       </div>
     </header>
   );

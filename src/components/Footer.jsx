@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="max-w-md pb-16 text-sm text-slate-600 dark:text-slate-400 sm:pb-0">
+    <footer className="max-w-md mx-6 lg:mx-8 pb-16 text-sm text-slate-600 dark:text-slate-400 sm:pb-0">
       <p>
         <a
           href="https://www.figma.com/"

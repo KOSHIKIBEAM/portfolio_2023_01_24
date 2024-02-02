@@ -36,13 +36,13 @@ const WorkSection = ({ src }) => {
                       <img src={elem.img} alt={elem.title} className="border" />
                     </div>
                     <div className="group relative w-3/4">
-                      <h3 className="text-lg font-semibold leading-6 group-hover:">
+                      <h3 className="md:text-lg text-base font-semibold md:leading-6 group-hover:">
                         <div>
                           <span className="absolute inset-0"></span>
                           {elem.title}
                         </div>
                       </h3>
-                      <p className="mt-2 line-clamp-3 text-sm leading-6 ">
+                      <p className="mt-2 text-xs line-clamp-3 md:text-sm md:leading-6 ">
                         {elem.text}
                       </p>
                     </div>
