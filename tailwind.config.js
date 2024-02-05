@@ -20,6 +20,21 @@ export default {
         circleAnim13: "circleAnim 1s forwards 1.25s",
         circleAnim14: "circleAnim 1s forwards 1.35s",
         circleAnim15: "circleAnim 1s forwards 1.45s",
+        circleAnimSm1: "circleAnimSm 1s forwards 0s",
+        circleAnimSm2: "circleAnimSm 1s forwards .05s",
+        circleAnimSm3: "circleAnimSm 1s forwards .15s",
+        circleAnimSm4: "circleAnimSm 1s forwards .35s",
+        circleAnimSm5: "circleAnimSm 1s forwards .45s",
+        circleAnimSm6: "circleAnimSm 1s forwards .55s",
+        circleAnimSm7: "circleAnimSm 1s forwards .65s",
+        circleAnimSm8: "circleAnimSm 1s forwards .75s",
+        circleAnimSm9: "circleAnimSm 1s forwards .85s",
+        circleAnimSm10: "circleAnimSm 1s forwards .95s",
+        circleAnimSm11: "circleAnimSm 1s forwards 1.05s",
+        circleAnimSm12: "circleAnimSm 1s forwards 1.15s",
+        circleAnimSm13: "circleAnimSm 1s forwards 1.25s",
+        circleAnimSm14: "circleAnimSm 1s forwards 1.35s",
+        circleAnimSm15: "circleAnimSm 1s forwards 1.45s",
         bound: "bound 3s infinite",
       },
       keyframes: {
@@ -29,6 +44,14 @@ export default {
           },
           "100%": {
             strokeDasharray: "440 440",
+          },
+        },
+        circleAnimSm: {
+          "0%": {
+            strokeDasharray: "0 252",
+          },
+          "100%": {
+            strokeDasharray: "252 252",
           },
         },
         bound: {
