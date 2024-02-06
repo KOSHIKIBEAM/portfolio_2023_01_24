@@ -29,6 +29,8 @@ const WorkSection = ({ src }) => {
                     </div>
                   </div>
                   <a
+                    target="_blank"
+                    rel="noreferrer noopener"
                     href={elem.url}
                     className="flex items-center justify-between gap-8 pt-3 transition duration-300 hover:opacity-70"
                   >
@@ -42,8 +44,8 @@ const WorkSection = ({ src }) => {
                           {elem.title}
                         </div>
                       </h3>
-                      <p className="mt-2 text-xs line-clamp-3 md:text-sm md:leading-6 ">
-                        {elem.text}
+                      <p className="mt-2 text-xs line-clamp-3 md:text-sm md:leading-6 normal-case">
+                        ユーザー名 {elem.user}、パスワード {elem.pass}
                       </p>
                     </div>
                   </a>
