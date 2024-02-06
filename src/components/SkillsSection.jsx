@@ -8,7 +8,7 @@ const SkillsSection = () => {
     stroke: "#e2e8f0",
     position: "relative",
     fill: "none",
-    strokeWidth: "6",
+    strokeWidth: "10",
     strokeDasharray: "252",
     strokeLinecap: "round",
   };
