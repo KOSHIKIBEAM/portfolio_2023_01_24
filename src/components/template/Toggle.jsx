@@ -27,7 +27,7 @@ const Toggle = () => {
   return (
     <button
       onClick={handleThemeSwitch}
-      className="text-yellow-500 bg-gray-100 dark:bg-slate-600 rounded-lg dark:text-white p-3"
+      className="text-yellow-500 border-slate-400 dark:border-none border-[1px] bg-gray-100 dark:bg-slate-600 rounded-lg dark:text-white p-3"
     >
       {theme === "dark" ? <FaMoon /> : <BsSunFill />}
     </button>
