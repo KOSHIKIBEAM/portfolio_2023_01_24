@@ -39,7 +39,7 @@ const Header = () => {
       <nav className="nav hidden lg:block">
         <ul>
           <li className="pb-14 pl-10">
-            <a href="#skill">
+            <a href="#about">
               <span className="relative flex h-3 w-3">
                 <span className="animate-bound absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
                 <span className="text-lg">about</span>
