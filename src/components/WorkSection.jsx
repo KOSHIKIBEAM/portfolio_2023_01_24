@@ -45,7 +45,7 @@ const WorkSection = ({ src }) => {
                         </div>
                       </h3>
                       <p className="mt-2 text-xs line-clamp-3 md:text-sm md:leading-6 normal-case">
-                        ユーザー名 {elem.user}、パスワード {elem.pass}
+                        ユーザー名: {elem.user}、パスワード: {elem.pass}
                       </p>
                     </div>
                   </a>
