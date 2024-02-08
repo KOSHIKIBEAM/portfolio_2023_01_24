@@ -7,7 +7,7 @@ const WorkList = [
     user: "cafe",
     text: "テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２",
     url: "https://koshikibeam.website/open_cafe",
-    img: "src/img/opencafe.png",
+    img: "public/assets/img/opencafe.png",
     label: "コーポレートサイト",
   },
   {
@@ -18,7 +18,7 @@ const WorkList = [
     user: "dental",
     text: "テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２",
     url: "https://koshikibeam.website/minami-dentalclinic/",
-    img: "src/img/minamidentalclinic.png",
+    img: "public/assets/img/minamidentalclinic.png",
     label: "コーポレートサイト",
   },
   {
@@ -29,7 +29,7 @@ const WorkList = [
     user: "homepage",
     text: "トライアルサイト",
     url: "https://koshikibeam.website/homepage/",
-    img: "src/img/trial.png",
+    img: "public/assets/img/trial.png",
     label: "LPサイト",
   },
   {
@@ -40,7 +40,7 @@ const WorkList = [
     user: "なし",
     text: "テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２",
     url: "https://sumibiyakisara-beppu.com/",
-    img: "src/img/sara.png",
+    img: "public/assets/img/sara.png",
     label: "コーポレートサイト",
   },
   {
@@ -51,7 +51,7 @@ const WorkList = [
     user: "なし",
     text: "ポートフォリオサイト",
     url: "https://koshikibeam.website",
-    img: "src/img/portfolio.png",
+    img: "public/assets/img/portfolio.png",
     label: "ポートフォリオサイト",
   },
 ];
