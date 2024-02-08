@@ -29,14 +29,14 @@ const Header = () => {
             koshikibeam@gmail.com
           </a>
         </p>
-        <h3 className="mt-10 text-lg font-normal tracking-tight sm:text-xl">
+        <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
           このたびの能登半島地震に対し、 <br className="sm:hidden block" />
           心よりお見舞い申し上げます。
           <br />
           皆様の一日も早いご再建をお祈りいたします。
         </h3>
       </div>
-      <nav className="nav hidden lg:block">
+      <nav className="nav hidden lg:block my-[25px]">
         <ul>
           <li className="pb-14 pl-10">
             <a href="#about">
