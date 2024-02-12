@@ -5,21 +5,6 @@ export default {
   theme: {
     extend: {
       animation: {
-        circleAnim1: "circleAnim 1s forwards 0s",
-        circleAnim2: "circleAnim 1s forwards .05s",
-        circleAnim3: "circleAnim 1s forwards .15s",
-        circleAnim4: "circleAnim 1s forwards .35s",
-        circleAnim5: "circleAnim 1s forwards .45s",
-        circleAnim6: "circleAnim 1s forwards .55s",
-        circleAnim7: "circleAnim 1s forwards .65s",
-        circleAnim8: "circleAnim 1s forwards .75s",
-        circleAnim9: "circleAnim 1s forwards .85s",
-        circleAnim10: "circleAnim 1s forwards .95s",
-        circleAnim11: "circleAnim 1s forwards 1.05s",
-        circleAnim12: "circleAnim 1s forwards 1.15s",
-        circleAnim13: "circleAnim 1s forwards 1.25s",
-        circleAnim14: "circleAnim 1s forwards 1.35s",
-        circleAnim15: "circleAnim 1s forwards 1.45s",
         circleAnimSm1: "circleAnimSm 1s forwards 0s",
         circleAnimSm2: "circleAnimSm 1s forwards .05s",
         circleAnimSm3: "circleAnimSm 1s forwards .15s",

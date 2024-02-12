@@ -180,7 +180,6 @@ const SkillsSectionSmall = () => {
   };
   const Number = {
     position: "absolute",
-    left: "0",
     width: "100%",
     height: "100%",
     display: "flex",
@@ -197,16 +196,14 @@ const SkillsSectionSmall = () => {
         Skill
       </h2>
       <div className="flex justify-center items-center flex-wrap">
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent100_Sm_1} />
-              <CircleSmall style={Percent100_1} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 100<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -216,16 +213,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent95_Sm_2} />
-              <CircleSmall style={Percent95_2} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 95<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -235,16 +230,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent95_Sm_3} />
-              <CircleSmall style={Percent95_3} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 95<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -254,16 +247,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent95_Sm_4} />
-              <CircleSmall style={Percent95_4} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 95<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -273,16 +264,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent85_Sm_5} />
-              <CircleSmall style={Percent85_5} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 85<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -292,16 +281,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent100_Sm_6} />
-              <CircleSmall style={Percent100_6} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 100<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -311,16 +298,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent100_Sm_7} />
-              <CircleSmall style={Percent100_7} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 100<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -330,16 +315,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent95_Sm_8} />
-              <CircleSmall style={Percent95_8} />
             </svg>
             <div style={Number} className="sm:top-0 top-[3%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 95<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -349,16 +332,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent95_Sm_9} />
-              <CircleSmall style={Percent95_9} />
             </svg>
             <div style={Number} className="sm:top-0 top-[3%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 95<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -368,16 +349,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent95_Sm_10} />
-              <CircleSmall style={Percent95_10} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 95<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -387,16 +366,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent65_Sm_11} />
-              <CircleSmall style={Percent65_11} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 65<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -406,16 +383,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent50_Sm_12} />
-              <CircleSmall style={Percent50_12} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 50<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -425,16 +400,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent75_Sm_13} />
-              <CircleSmall style={Percent75_13} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 75<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -444,16 +417,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent100_Sm_14} />
-              <CircleSmall style={Percent100_14} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 100<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
@@ -463,16 +434,14 @@ const SkillsSectionSmall = () => {
           </div>
         </div>
 
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
+        <div className="w-1/3 sm:w-1/5 h-[150px] sm:h-[250px]" style={Box}>
+          <div>
             <svg className="-rotate-90 relative w-[150px] h-[150px]">
               <CircleResSmall style={Base_Sm} />
-              <CircleSmall style={Base} />
               <CircleResSmall style={Percent100_Sm_15} />
-              <CircleSmall style={Percent100_15} />
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
+            <div style={Number} className="sm:top-[11%] top-[19%] left-[-22%]">
+              <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
                 100<span className="text-sm sm:text-xl">%</span>
               </h3>
             </div>
