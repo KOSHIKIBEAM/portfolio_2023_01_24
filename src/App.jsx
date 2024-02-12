@@ -4,6 +4,7 @@ import SkillsSection from "./components/SkillsSection";
 import WorkSection from "./components/WorkSection";
 import WorkList from "./data/WorkList";
 import AboutSection from "./components/AboutSection";
+import SkillsSectionSmall from "./components/SkillsSectionSmall";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <AboutSection />
             <SkillsSection />
             <WorkSection src={WorkList} />
+            <SkillsSectionSmall />
             <Footer />
           </main>
         </div>
