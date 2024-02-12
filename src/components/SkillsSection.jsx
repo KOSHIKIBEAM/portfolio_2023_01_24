@@ -1,18 +1,7 @@
 import React from "react";
-import Circle from "./template/Circle";
-import CircleRes from "./template/CircleRes";
 
 const SkillsSection = () => {
   const Base = {
-    strokeDashoffset: "calc(440 - (440 * 100) / 100)",
-    stroke: "#e2e8f0",
-    position: "relative",
-    fill: "none",
-    strokeWidth: "10",
-    strokeDasharray: "252",
-    strokeLinecap: "round",
-  };
-  const Base_Sm = {
     strokeDashoffset: "calc(252 - (252 * 100) / 100)",
     stroke: "#e2e8f0",
     position: "relative",
@@ -21,172 +10,30 @@ const SkillsSection = () => {
     strokeDasharray: "252",
     strokeLinecap: "round",
   };
-  const Box = {
-    position: "relative",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "column",
-  };
-  const Percent100_1 = {
-    strokeDashoffset: "calc(440 - (440 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnim 1s forwards 1.35s",
-  };
-  const Percent100_Sm_1 = {
+
+  const Percent100 = {
     strokeDashoffset: "calc(252 - (252 * 100) / 100)",
     stroke: "#fc4103",
-    animation: "circleAnimSm 1s forwards 1.35s",
   };
-  const Percent100_6 = {
-    strokeDashoffset: "calc(440 - (440 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnim 1s forwards .15s",
-  };
-  const Percent100_Sm_6 = {
-    strokeDashoffset: "calc(252 - (252 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnimSm 1s forwards .15s",
-  };
-  const Percent100_7 = {
-    strokeDashoffset: "calc(440 - (440 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnim 1s forwards 1.25s",
-  };
-  const Percent100_Sm_7 = {
-    strokeDashoffset: "calc(252 - (252 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnimSm 1s forwards 1.25s",
-  };
-  const Percent100_14 = {
-    strokeDashoffset: "calc(440 - (440 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnim 1s forwards 1.15s",
-  };
-  const Percent100_Sm_14 = {
-    strokeDashoffset: "calc(252 - (252 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnimSm 1s forwards 1.15s",
-  };
-  const Percent100_15 = {
-    strokeDashoffset: "calc(440 - (440 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnim 1s forwards .55s",
-  };
-  const Percent100_Sm_15 = {
-    strokeDashoffset: "calc(252 - (252 * 100) / 100)",
-    stroke: "#fc4103",
-    animation: "circleAnimSm 1s forwards .55s",
-  };
-  const Percent95_2 = {
-    strokeDashoffset: "calc(440 - (440 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnim 1s forwards 1.45s",
-  };
-  const Percent95_Sm_2 = {
+  const Percent95 = {
     strokeDashoffset: "calc(252 - (252 * 95) / 100)",
     stroke: "#fc7f03",
-    animation: "circleAnimSm 1s forwards 1.45s",
   };
-  const Percent95_3 = {
-    strokeDashoffset: "calc(440 - (440 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnim 1s forwards 0s",
-  };
-  const Percent95_Sm_3 = {
-    strokeDashoffset: "calc(252 - (252 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnimSm 1s forwards 0s",
-  };
-  const Percent95_4 = {
-    strokeDashoffset: "calc(440 - (440 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnim 1s forwards .75s",
-  };
-  const Percent95_Sm_4 = {
-    strokeDashoffset: "calc(252 - (252 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnimSm 1s forwards .75s",
-  };
-  const Percent95_8 = {
-    strokeDashoffset: "calc(440 - (440 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnim 1s forwards .65s",
-  };
-  const Percent95_Sm_8 = {
-    strokeDashoffset: "calc(252 - (252 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnimSm 1s forwards .65s",
-  };
-  const Percent95_9 = {
-    strokeDashoffset: "calc(440 - (440 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnim 1s forwards .05s",
-  };
-  const Percent95_Sm_9 = {
-    strokeDashoffset: "calc(252 - (252 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnimSm 1s forwards .05s",
-  };
-  const Percent95_10 = {
-    strokeDashoffset: "calc(440 - (440 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnim 1s forwards .95s",
-  };
-  const Percent95_Sm_10 = {
-    strokeDashoffset: "calc(252 - (252 * 95) / 100)",
-    stroke: "#fc7f03",
-    animation: "circleAnimSm 1s forwards .95s",
-  };
-  const Percent85_5 = {
-    strokeDashoffset: "calc(440 - (440 * 85) / 100)",
-    stroke: "#fcc203",
-    animation: "circleAnimSm 1s forwards .45s",
-  };
-  const Percent85_Sm_5 = {
+  const Percent85 = {
     strokeDashoffset: "calc(252 - (252 * 85) / 100)",
     stroke: "#fcc203",
-    animation: "circleAnimSm 1s forwards .45s",
   };
-  const Percent75_13 = {
-    strokeDashoffset: "calc(440 - (440 * 75) / 100)",
-    stroke: " #03a9f4",
-    animation: "circleAnim 1s forwards .35s",
-  };
-  const Percent75_Sm_13 = {
+  const Percent75 = {
     strokeDashoffset: "calc(252 - (252 * 75) / 100)",
     stroke: " #03a9f4",
-    animation: "circleAnimSm 1s forwards .35s",
   };
-  const Percent65_11 = {
-    strokeDashoffset: "calc(440 - (440 * 65) / 100)",
-    stroke: " #03a9f4",
-    animation: "circleAnim 1s forwards .85s",
-  };
-  const Percent65_Sm_11 = {
+  const Percent65 = {
     strokeDashoffset: "calc(252 - (252 * 65) / 100)",
     stroke: " #03a9f4",
-    animation: "circleAnimSm 1s forwards .85s",
   };
-  const Percent50_12 = {
-    strokeDashoffset: "calc(440 - (440 * 50) / 100)",
-    stroke: " #03a9f4",
-    animation: "circleAnim 1s forwards .95s",
-  };
-  const Percent50_Sm_12 = {
+  const Percent50 = {
     strokeDashoffset: "calc(252 - (252 * 50) / 100)",
     stroke: " #03a9f4",
-    animation: "circleAnimSm 1s forwards .95s",
-  };
-  const Number = {
-    position: "absolute",
-    left: "0",
-    width: "100%",
-    height: "100%",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    color: "#fff",
   };
   return (
     <section
@@ -197,288 +44,398 @@ const SkillsSection = () => {
         Skill
       </h2>
       <div className="flex justify-center items-center flex-wrap">
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent100_Sm_1} />
-              <Circle style={Percent100_1} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="relative animate-circleAnimSm14 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                100<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              HTML/CSS
-            </p>
+            <p className="text-center font-bold mt-1">HTML/CSS</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              100<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent95_Sm_2} />
-              <Circle style={Percent95_2} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent95}
+                className="relative animate-circleAnimSm2 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                95<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              Sass
-            </p>
+            <p className="text-center font-bold mt-1">Sass</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent95_Sm_3} />
-              <Circle style={Percent95_3} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent95}
+                className="relative animate-circleAnimSm13 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                95<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              JavaScript
-            </p>
+            <p className="text-center font-bold mt-1">JavaScript</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent95_Sm_4} />
-              <Circle style={Percent95_4} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent95}
+                className="relative animate-circleAnimSm4 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                95<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              WordPress
-            </p>
+            <p className="text-center font-bold mt-1">WordPress</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent85_Sm_5} />
-              <Circle style={Percent85_5} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent85}
+                className="relative animate-circleAnimSm3 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                85<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              jQuery
-            </p>
+            <p className="text-center font-bold mt-1">jQuery</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              85<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent100_Sm_6} />
-              <Circle style={Percent100_6} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="relative animate-circleAnimSm10 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                100<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              Figma
-            </p>
+            <p className="text-center font-bold mt-1">Figma</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              100<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent100_Sm_7} />
-              <Circle style={Percent100_7} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="relative animate-circleAnimSm5 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                100<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              Adobe XD
-            </p>
+            <p className="text-center font-bold mt-1">Adobe XD</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent95_Sm_8} />
-              <Circle style={Percent95_8} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent95}
+                className="relative animate-circleAnimSm12 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[3%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                95<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              Adobe Photoshop
-            </p>
+            <p className="text-center font-bold mt-1">Photoshop</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent95_Sm_9} />
-              <Circle style={Percent95_9} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent95}
+                className="relative animate-circleAnimSm6 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[3%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                95<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              Adobe Illustrator
-            </p>
+            <p className="text-center font-bold mt-1">Illustrator</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent95_Sm_10} />
-              <Circle style={Percent95_10} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent95}
+                className="relative animate-circleAnimSm7 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                95<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              Bootstrap
-            </p>
+            <p className="text-center font-bold mt-1">Bootstrap</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent65_Sm_11} />
-              <Circle style={Percent65_11} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent65}
+                className="relative animate-circleAnimSm9 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                65<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              gulp
-            </p>
+            <p className="text-center font-bold mt-1">gulp</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              95<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent50_Sm_12} />
-              <Circle style={Percent50_12} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent50}
+                className="relative animate-circleAnimSm1 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                50<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              React
-            </p>
+            <p className="text-center font-bold mt-1">React</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              50<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent75_Sm_13} />
-              <Circle style={Percent75_13} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent75}
+                className="relative animate-circleAnimSm15 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                75<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
-              Tailwind css
-            </p>
+            <p className="text-center font-bold mt-1">Tailwind css</p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              75<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent100_Sm_14} />
-              <Circle style={Percent100_14} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="relative animate-circleAnimSm11 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                100<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
+            <p className="text-center font-bold mt-1 dark:text-rose-400 text-rose-500">
               Motivation
             </p>
           </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              100<span className="text-xs sm:text-sm">%</span>
+            </h3>
+          </div>
         </div>
-
-        <div className="w-1/3 h-[185px] sm:h-[250px]" style={Box}>
-          <div className="sm:w-[150px] sm:h-[150px] w-[95px] h-[205px]">
-            <svg className="-rotate-90 relative w-[150px] h-[150px]">
-              <CircleRes style={Base_Sm} />
-              <Circle style={Base} />
-              <CircleRes style={Percent100_Sm_15} />
-              <Circle style={Percent100_15} />
+        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+          <div className="flex justify-center items-center flex-col">
+            <svg className="-rotate-90 w-[90px] h-[90px]">
+              <circle
+                style={Base}
+                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
+              <circle
+                style={Percent100}
+                className="relative animate-circleAnimSm8 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                cx="45"
+                cy="45"
+                r="40"
+              ></circle>
             </svg>
-            <div style={Number} className="sm:top-0 top-[6%]">
-              <h3 className="sm:text-4xl text-xl dark:text-gray-50 text-gray-900">
-                100<span className="text-sm sm:text-xl">%</span>
-              </h3>
-            </div>
-            <p className="pt-2.5 text-center font-bold text-sm sm:text-lg">
+            <p className="text-center font-bold mt-1 dark:text-rose-400 text-rose-500">
               DeadLine
             </p>
+          </div>
+          <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
+            <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
+              100<span className="text-xs sm:text-sm">%</span>
+            </h3>
           </div>
         </div>
       </div>
