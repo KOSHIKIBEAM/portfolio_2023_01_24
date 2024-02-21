@@ -6,9 +6,17 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-DEF30PL7H7");
 
 import App from "./App.jsx";
 import "./styles/tailwind.css";
+
+ReactGA.send({
+  hitType: "pageview",
+  page: window.location.pathname,
+});
 
 i18n
   .use(initReactI18next) // passes i18n down to react-i18next
