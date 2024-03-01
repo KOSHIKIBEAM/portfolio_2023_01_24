@@ -30,10 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          このたびの能登半島地震に対し、 <br className="sm:hidden block" />
-          心よりお見舞い申し上げます。
-          <br />
-          皆様の一日も早いご再建をお祈りいたします。
+          「なでしこジャパン」パリ五輪出場決定！！
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
