@@ -30,7 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          「なでしこジャパン」パリ五輪出場決定！！
+          日経平均株価史上初の４万円台
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
