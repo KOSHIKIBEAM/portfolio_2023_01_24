@@ -1,6 +1,17 @@
 const WorkList = [
   {
     key: "1",
+    date: "2023-08-20",
+    title: "ポートフォリオサイト",
+    pass: "なし",
+    user: "なし",
+    text: "ポートフォリオサイト",
+    url: "https://koshikibeam.website",
+    img: "assets/img/portfolio_1.png",
+    label: "ポートフォリオサイト",
+  },
+  {
+    key: "2",
     date: "2023-09-24",
     title: "カフェ 「Open Cafe」",
     pass: "cafe",
@@ -11,7 +22,7 @@ const WorkList = [
     label: "コーポレートサイト",
   },
   {
-    key: "2",
+    key: "3",
     date: "2023-10-10",
     title: "歯科医院「みなみ歯科クリニック」",
     pass: "dental",
@@ -22,7 +33,7 @@ const WorkList = [
     label: "コーポレートサイト",
   },
   {
-    key: "2",
+    key: "4",
     date: "2023-11-25",
     title: "ホームページ作成会社",
     pass: "homepage",
@@ -33,7 +44,7 @@ const WorkList = [
     label: "LPサイト",
   },
   {
-    key: "4",
+    key: "5",
     date: "2023-10-28",
     title: "大分の地元食材で織りなす｜七輪炭火焼 沙羅",
     pass: "なし",
@@ -42,17 +53,6 @@ const WorkList = [
     url: "https://sumibiyakisara-beppu.com/",
     img: "assets/img/sara.png",
     label: "コーポレートサイト",
-  },
-  {
-    key: "5",
-    date: "2024-02-01",
-    title: "ポートフォリオサイト",
-    pass: "なし",
-    user: "なし",
-    text: "ポートフォリオサイト",
-    url: "https://koshikibeam.website",
-    img: "assets/img/portfolio.png",
-    label: "ポートフォリオサイト",
   },
 ];
 export default WorkList;
