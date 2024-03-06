@@ -4,36 +4,31 @@ const SkillsSection = () => {
   const Base = {
     strokeDashoffset: "calc(252 - (252 * 100) / 100)",
     stroke: "#e2e8f0",
-    position: "relative",
-    fill: "none",
-    strokeWidth: "6",
-    strokeDasharray: "252",
-    strokeLinecap: "round",
   };
 
   const Percent100 = {
-    strokeDashoffset: "calc(252 - (252 * 100) / 100)",
     stroke: "#fc4103",
   };
+
   const Percent95 = {
-    strokeDashoffset: "calc(252 - (252 * 95) / 100)",
     stroke: "#fc7f03",
+    strokeDashoffset: "calc(252 - (252 * 95) / 100)",
   };
   const Percent85 = {
-    strokeDashoffset: "calc(252 - (252 * 85) / 100)",
     stroke: "#fcc203",
+    strokeDashoffset: "calc(252 - (252 * 85) / 100)",
   };
   const Percent75 = {
+    stroke: "#03a9f4",
     strokeDashoffset: "calc(252 - (252 * 75) / 100)",
-    stroke: " #03a9f4",
   };
   const Percent65 = {
     strokeDashoffset: "calc(252 - (252 * 65) / 100)",
-    stroke: " #03a9f4",
+    stroke: "#03a9f4",
   };
   const Percent50 = {
     strokeDashoffset: "calc(252 - (252 * 50) / 100)",
-    stroke: " #03a9f4",
+    stroke: "#03a9f4",
   };
   return (
     <section
@@ -49,14 +44,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent100}
-                className="relative animate-circleAnimSm14 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim14 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -75,14 +70,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent95}
-                className="relative animate-circleAnimSm2 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim2 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -101,14 +96,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent95}
-                className="relative animate-circleAnimSm13 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim13 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -127,14 +122,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent95}
-                className="relative animate-circleAnimSm4 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim4 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -153,14 +148,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent85}
-                className="relative animate-circleAnimSm3 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim3 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -179,14 +174,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent100}
-                className="relative animate-circleAnimSm10 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim10 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -205,14 +200,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent100}
-                className="relative animate-circleAnimSm5 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim5 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -231,14 +226,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent95}
-                className="relative animate-circleAnimSm12 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim12 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -257,14 +252,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent95}
-                className="relative animate-circleAnimSm6 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim6 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -283,14 +278,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent95}
-                className="relative animate-circleAnimSm7 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim7 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -309,14 +304,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent65}
-                className="relative animate-circleAnimSm9 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim9 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -335,14 +330,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent50}
-                className="relative animate-circleAnimSm1 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim1 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -361,14 +356,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent75}
-                className="relative animate-circleAnimSm15 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim15 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -387,14 +382,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent100}
-                className="relative animate-circleAnimSm11 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim11 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
@@ -415,14 +410,14 @@ const SkillsSection = () => {
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
                 style={Base}
-                className="relative fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="circle_base"
                 cx="45"
                 cy="45"
                 r="40"
               ></circle>
               <circle
                 style={Percent100}
-                className="relative animate-circleAnimSm8 fill-none [stroke-linecap:round] [stroke-width:6] [stroke-dasharray:252]"
+                className="animate-circleAnim8 circle_base"
                 cx="45"
                 cy="45"
                 r="40"
