@@ -20,7 +20,9 @@ export default {
         circleAnim13: "circleAnim 1s forwards 3.05s",
         circleAnim14: "circleAnim 1s forwards 3.15s",
         circleAnim15: "circleAnim 1s forwards 3.25s",
-        bound: "bound 3s infinite",
+        bound1: "bound1 3s infinite",
+        bound2: "bound2 3s infinite",
+        bound3: "bound3 3s infinite",
       },
       keyframes: {
         circleAnim: {
@@ -31,7 +33,29 @@ export default {
             strokeDasharray: "252 252",
           },
         },
-        bound: {
+        bound1: {
+          "0%": { transform: "translateY(0)" },
+          "5%": { transform: "translateY(-10px)" },
+          "10%": { transform: "translateY(0)" },
+          "20%": { transform: "translateY(0)" },
+          "25%": { transform: "translateY(0)" },
+          "30%": { transform: "translateY(-10px)" },
+          "50%": { transform: "translateY(0)" },
+          "80%": { transform: "translateY(-10px)" },
+          "100%": { transform: "translateY(0)" },
+        },
+        bound2: {
+          "0%": { transform: "translateY(0)" },
+          "5%": { transform: "translateY(0)" },
+          "10%": { transform: "translateY(-10px)" },
+          "20%": { transform: "translateY(0)" },
+          "25%": { transform: "translateY(0)" },
+          "30%": { transform: "translateY(-10px)" },
+          "50%": { transform: "translateY(0)" },
+          "80%": { transform: "translateY(-10px)" },
+          "100%": { transform: "translateY(0)" },
+        },
+        bound3: {
           "0%": { transform: "translateY(0)" },
           "5%": { transform: "translateY(0)" },
           "10%": { transform: "translateY(0)" },

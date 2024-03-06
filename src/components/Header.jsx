@@ -38,7 +38,7 @@ const Header = () => {
           <li className="pb-14 pl-10">
             <a href="#about">
               <span className="relative flex h-3 w-3">
-                <span className="animate-bound absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
+                <span className="animate-bound1 absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
                 <span className="text-lg">about</span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
               </span>
@@ -47,7 +47,7 @@ const Header = () => {
           <li className="pb-14 pl-10">
             <a href="#skill">
               <span className="relative flex h-3 w-3">
-                <span className="animate-bound absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
+                <span className="animate-bound2 absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
                 <span className="text-lg">skill</span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
               </span>
@@ -56,7 +56,7 @@ const Header = () => {
           <li className="pb-14 pl-10">
             <a href="#work">
               <span className="relative flex h-3 w-3">
-                <span className="animate-bound absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
+                <span className="animate-bound3 absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
                 <span className="text-lg">work</span>
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
               </span>
