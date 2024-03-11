@@ -206,7 +206,7 @@ const SkillsSection = () => {
                 r="40"
               ></circle>
               <circle
-                style={Percent100}
+                style={Percent95}
                 className="animate-circleAnim5 circle_base"
                 cx="45"
                 cy="45"
@@ -321,7 +321,7 @@ const SkillsSection = () => {
           </div>
           <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
             <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
-              95<span className="text-xs sm:text-sm">%</span>
+              65<span className="text-xs sm:text-sm">%</span>
             </h3>
           </div>
         </div>
