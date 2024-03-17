@@ -30,7 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          「ドラゴンボール」作者、漫画家の鳥山明さんが死去
+          君たちはどう楽しむか　ジブリパーク全面開業
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
