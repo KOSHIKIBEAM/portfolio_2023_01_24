@@ -30,7 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          君たちはどう楽しむか　ジブリパーク全面開業
+          日銀がマイナス金利解除を決定、１７年ぶり利上げ
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
