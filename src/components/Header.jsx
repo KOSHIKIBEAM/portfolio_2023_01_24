@@ -30,7 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          日銀がマイナス金利解除を決定、１７年ぶり利上げ
+          米大リーグ・ドジャースの広報担当者は２０日、大谷翔平選手の通訳、水原一平氏を解雇したと明らかにした。
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
