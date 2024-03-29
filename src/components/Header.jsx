@@ -30,7 +30,9 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          8年ぶりにドトール、制服を刷新　性差なくし環境配慮も
+          リニア中央新幹線の東京・品川―名古屋間について、
+          <br />
+          最速で2027年としている開業目標を断念する方針を明らかにした。
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
