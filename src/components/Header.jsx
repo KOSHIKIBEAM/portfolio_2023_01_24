@@ -30,9 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          リニア中央新幹線の東京・品川―名古屋間について、
-          <br />
-          最速で2027年としている開業目標を断念する方針を明らかにした。
+          小林製薬「紅麹」問題、大阪市が専従の調査チーム設置へ
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
