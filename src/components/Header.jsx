@@ -30,7 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          小林製薬「紅麹」問題、大阪市が専従の調査チーム設置へ
+          男性育休取得率が都内で過去最高３８・９％
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
