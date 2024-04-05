@@ -30,7 +30,9 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          男性育休取得率が都内で過去最高３８・９％
+          チェコが砲弾８０万発調達、
+          <br />
+          ウクライナ供与を計画…実現すれば戦況に変化もたらす可能性
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
