@@ -30,9 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          チェコが砲弾８０万発調達、
-          <br />
-          ウクライナ供与を計画…実現すれば戦況に変化もたらす可能性
+          イスラエル軍、ガザ南部から部隊を撤収…人質解放交渉の進展狙いか
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
