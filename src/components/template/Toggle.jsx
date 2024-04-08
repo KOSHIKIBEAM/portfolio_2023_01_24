@@ -27,9 +27,9 @@ const Toggle = () => {
   return (
     <button
       onClick={handleThemeSwitch}
-      className="text-yellow-500 border-slate-400 dark:border-none border-[1px] bg-gray-100 dark:bg-slate-600 rounded-lg dark:text-white p-3"
+      className="dark:text-yellow-500 dark:border-slate-400 border-none dark:border-[1px] dark:bg-gray-100 bg-slate-600 rounded-lg text-white p-3 w-12 h-12"
     >
-      {theme === "dark" ? <FaMoon /> : <BsSunFill />}
+      {theme === "dark" ? <FaMoon className="fill-blue-950" /> : <BsSunFill />}
     </button>
   );
 };
