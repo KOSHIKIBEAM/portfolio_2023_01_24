@@ -30,7 +30,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          イスラエル軍、ガザ南部から部隊を撤収…人質解放交渉の進展狙いか
+          イスラエル首相、ラファ侵攻の「期日ある」　ガザ戦闘
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
