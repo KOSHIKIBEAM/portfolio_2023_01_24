@@ -1,6 +1,8 @@
 import React from "react";
+// import GithubIcon from "./template/GithubIcon";
+import github_icon from "../../public/assets/img/github-mark.png";
 
-const WorkSection = ({ src }) => {
+const WorkSection = ({ src, github_url }) => {
   return (
     <section
       id="work"
@@ -32,7 +34,7 @@ const WorkSection = ({ src }) => {
                     target="_blank"
                     rel="noreferrer noopener"
                     href={elem.url}
-                    className="flex items-center justify-between gap-8 pt-3 transition duration-300 hover:opacity-70"
+                    className="flex items-center justify-between gap-8 py-[20px] transition duration-300 hover:opacity-70"
                   >
                     <div className="w-1/4">
                       <img src={elem.img} alt={elem.title} className="border" />
@@ -44,11 +46,42 @@ const WorkSection = ({ src }) => {
                           {elem.title}
                         </div>
                       </h3>
-                      <p className="mt-2 text-xs line-clamp-3 md:text-sm md:leading-6 normal-case">
-                        ユーザー名: {elem.user}、パスワード: {elem.pass}
-                      </p>
                     </div>
                   </a>
+
+                  <div className="flex items-center w-full">
+                    {(() => {
+                      if (elem.user) {
+                        return (
+                          <p className="text-xs line-clamp-3 md:text-sm md:leading-6 sm:pr-7 pr-9 normal-case">
+                            Basic認証
+                            <br className="sm:hidden" />
+                            ユーザー名：{elem.user}
+                            <br className="sm:hidden" />
+                            パスワード：{elem.pass}
+                          </p>
+                        );
+                      } else {
+                        return null;
+                      }
+                    })()}
+                    {(() => {
+                      if (elem.github) {
+                        return (
+                          <a
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            href={elem.github_url}
+                            className="flex items-center justify-between w-8 h-8 hover:opacity-70"
+                          >
+                            <img src={github_icon} alt="GithubIcon" />
+                          </a>
+                        );
+                      } else {
+                        return null;
+                      }
+                    })()}
+                  </div>
                 </article>
               </React.Fragment>
             ))}
