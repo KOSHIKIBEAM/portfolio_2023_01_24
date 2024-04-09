@@ -57,7 +57,7 @@ const WorkSection = ({ src, github_url }) => {
                             <span className="sm:mr-3">Basic認証</span>
                             <br className="sm:hidden" />
                             ユーザー名：{elem.user}
-                            <br className="sm:hidden" />
+                            <br className="sm:hidden sm:mr-2" />
                             パスワード：{elem.pass}
                           </p>
                         );
