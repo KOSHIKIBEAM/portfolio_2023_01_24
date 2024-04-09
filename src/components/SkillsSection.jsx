@@ -369,7 +369,7 @@ const SkillsSection = () => {
                 r="40"
               ></circle>
             </svg>
-            <p className="text-center font-bold mt-1">Tailwind css</p>
+            <p className="text-center font-bold mt-1">TailwindCss</p>
           </div>
           <div className="top-[25%] absolute dark:text-gray-50 text-gray-900">
             <h3 className="md:text-2xl text-xl dark:text-gray-50 text-gray-900">
