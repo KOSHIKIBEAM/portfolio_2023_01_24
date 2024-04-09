@@ -54,5 +54,28 @@ const WorkList = [
     img: "assets/img/sara.png",
     label: "コーポレートサイト",
   },
+  {
+    key: "6",
+    date: "2024-04-01",
+    title:
+      "大学と専門学校の違い | スポーツ健康医療専門学校｜鍼灸・柔道整復・スポーツトレーナー",
+    pass: "なし",
+    user: "なし",
+    text: "テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２",
+    url: "https://spo-ken.ac.jp/lp/difference_school/",
+    img: "assets/img/Sports-health-medical-school.png",
+    label: "LPサイト",
+  },
+  {
+    key: "7",
+    date: "2024-04-07",
+    title: "ココ・エステート株式会社｜静岡県の不動産売買・賃貸",
+    pass: "なし",
+    user: "なし",
+    text: "テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２テキスト２",
+    url: "https://coco-estate.jp/",
+    img: "assets/img/coco-estate.png",
+    label: "コーポレートサイト",
+  },
 ];
 export default WorkList;
