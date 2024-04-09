@@ -54,11 +54,11 @@ const WorkSection = ({ src, github_url }) => {
                       if (elem.user) {
                         return (
                           <p className="text-xs line-clamp-3 md:text-sm md:leading-6 sm:pr-7 pr-9 normal-case">
-                            <span className="sm:mr-3">Basic認証</span>
+                            <p className="sm:mr-3">Basic認証</p>
                             <br className="sm:hidden" />
-                            ユーザー名：{elem.user}
-                            <br className="sm:hidden sm:mr-2" />
-                            パスワード：{elem.pass}
+                            <p>ユーザー名：{elem.user}</p>
+                            <br className="sm:hidden" />
+                            <p className="sm:mr-2">パスワード：{elem.pass}</p>
                           </p>
                         );
                       } else {
