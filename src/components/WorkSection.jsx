@@ -56,11 +56,11 @@ const WorkSection = ({ src, github_url }) => {
                           <div className="text-xs line-clamp-3 md:text-sm md:leading-6 sm:pr-7 pr-9 normal-case">
                             <span className="sm:mr-3">Basic認証</span>
                             <br className="sm:hidden" />
-                            <span>ユーザー名：{elem.user}</span>
-                            <br className="sm:hidden" />
                             <span className="sm:mr-2">
-                              パスワード：{elem.pass}
+                              ユーザー名：{elem.user}
                             </span>
+                            <br className="sm:hidden" />
+                            <span>パスワード：{elem.pass}</span>
                           </div>
                         );
                       } else {
