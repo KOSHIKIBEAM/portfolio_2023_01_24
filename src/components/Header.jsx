@@ -2,7 +2,7 @@ import React from "react";
 import Toggle from "./template/Toggle";
 import SelectButton from "./template/SelectButton";
 import { useTranslation } from "react-i18next";
-import github_icon from "../../public/assets/img/github-mark.svg";
+import github_icon from "../../public/assets/img/github-mark.png";
 
 const Header = () => {
   const { t } = useTranslation();
