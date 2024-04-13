@@ -2,6 +2,7 @@ import React from "react";
 import Toggle from "./template/Toggle";
 import SelectButton from "./template/SelectButton";
 import { useTranslation } from "react-i18next";
+import github_icon from "../../public/assets/img/github-mark.svg";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -19,18 +20,26 @@ const Header = () => {
         <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">
           front end developer
         </h2>
-        <p className="mt-4 max-w-xs leading-normal">
+        <p className="mt-4 max-w-xs leading-normal flex items-center">
           <a
-            className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
+            className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300 mr-5"
             href="mailto:koshikibeam@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             koshikibeam@gmail.com
           </a>
+          <a
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://github.com/KOSHIKIBEAM"
+            className="w-6 h-6"
+          >
+            <img src={github_icon} alt="github_icon" />
+          </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          イスラエル首相、ラファ侵攻の「期日ある」　ガザ戦闘
+          大谷翔平、メジャー通算１７５本塁打…松井秀喜氏の日本人最多に並ぶ
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">

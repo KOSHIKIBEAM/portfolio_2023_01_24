@@ -30,9 +30,9 @@ function App() {
               <div className="lg:flex lg:justify-between lg:gap-4 2xl:gap-10 ">
                 <Header />
                 <main className="lg:pt-24 pt-12 w-full lg:w-1/2 lg:py-24">
+                  <WorkSection src={WorkList} />
                   <AboutSection />
                   <SkillsSection />
-                  <WorkSection src={WorkList} />
                   <Footer />
                 </main>
               </div>
