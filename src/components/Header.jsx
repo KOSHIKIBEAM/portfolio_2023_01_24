@@ -39,7 +39,7 @@ const Header = () => {
           </a>
         </p>
         <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-          大谷翔平、メジャー通算１７５本塁打…松井秀喜氏の日本人最多に並ぶ
+          日経平均一時700円安　中東緊迫が促すリスクオフ
         </h3>
       </div>
       <nav className="nav hidden lg:block my-[25px]">
