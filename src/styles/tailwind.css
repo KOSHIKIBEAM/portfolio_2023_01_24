@@ -23,3 +23,114 @@ stroke-dashoffset: calc(252 - (252 * 100) / 100);
     stroke-dasharray: 252;
     stroke-linecap: round;
 }
+
+#work .article:nth-child(1){
+-webkit-animation-delay: 500ms;
+        animation-delay: 500ms;
+}
+#work .article:nth-child(2){
+-webkit-animation-delay: 1000ms;
+        animation-delay: 1000ms;
+}
+#work .article:nth-child(3){
+-webkit-animation-delay: 1500ms;
+        animation-delay: 1500ms;
+}
+#work .article:nth-child(4){
+-webkit-animation-delay: 2000ms;
+        animation-delay: 2000ms;
+}
+#work .article:nth-child(5){
+-webkit-animation-delay: 2500ms;
+        animation-delay: 2500ms;
+}
+#work .article:nth-child(6){
+-webkit-animation-delay: 3000ms;
+        animation-delay: 3000ms;
+}
+#work .article:nth-child(7){
+-webkit-animation-delay: 3500ms;
+        animation-delay: 3500ms;
+}
+#work .article:nth-child(8){
+-webkit-animation-delay: 4000ms;
+        animation-delay: 4000ms;
+}
+#work .article:nth-child(9){
+-webkit-animation-delay: 4500ms;
+        animation-delay: 4500ms;
+}
+#work .article:nth-child(10){
+-webkit-animation-delay: 5000ms;
+        animation-delay: 5000ms;
+}
+.delay500{
+-webkit-animation-delay: 500ms;
+animation-delay: 500ms;
+}
+.delay500_1000{       
+ -webkit-animation-delay: 1000ms;
+animation-delay: 1000ms;
+ }
+@media (min-width: 640px){
+.delay500_1000{
+ -webkit-animation-delay: 500ms;        
+ animation-delay: 500ms;
+ }
+}
+.delay1000{
+-webkit-animation-delay: 1000ms;
+animation-delay: 1000ms;
+}
+.delay1000_1500{       
+-webkit-animation-delay: 1500ms;
+animation-delay: 1500ms;
+ }
+@media (min-width: 640px){
+.delay1000_1500{
+ -webkit-animation-delay: 1000ms;        
+ animation-delay: 1000ms;
+ }
+}
+.delay1000_2000{       
+ -webkit-animation-delay: 2000ms;
+animation-delay: 2000ms;
+ }
+@media (min-width: 640px){
+.delay1000_2000{
+ -webkit-animation-delay: 1000ms;        
+ animation-delay: 1000ms;
+ }
+}
+.delay1500_2000{       
+-webkit-animation-delay: 2000ms;
+animation-delay: 2000ms;
+ }
+@media (min-width: 640px){
+.delay1500_2000{
+ -webkit-animation-delay: 1500ms;        
+ animation-delay: 1500ms;
+ }
+}
+.delay1500_2500{       
+ -webkit-animation-delay: 2500ms;
+animation-delay: 2500ms;
+ }
+@media (min-width: 640px){
+.delay1500_2500{
+ -webkit-animation-delay: 1500ms;        
+ animation-delay: 1500ms;
+ }
+}
+.delay2000{
+-webkit-animation-delay: 2000ms;
+animation-delay: 2000ms;
+}
+.delay2500{
+-webkit-animation-delay: 2500ms;
+animation-delay: 2500ms;
+}
+.delay3000{
+-webkit-animation-delay: 3000ms;
+animation-delay: 3000ms;
+}

@@ -1,26 +1,37 @@
 import React from "react";
 // import GithubIcon from "./template/GithubIcon";
 import github_icon from "../../public/assets/img/github-mark.png";
+import { useInView } from "react-intersection-observer";
 
 const WorkSection = ({ src, github_url }) => {
+  const { ref: workSectionRef, inView: workSectionIsVisible } = useInView();
+  const { ref: sectionTitleRef, inView: sectionTitleIsVisible } = useInView();
   return (
     <section
       id="work"
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
       <div className="py-14 sm:py-22">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl pb-10 font-bold tracking-tight sm:text-4xl">
+        <div className="mx-auto max-w-7xl">
+          <div className="mx-auto max-w-2xl lg:mx-0" ref={sectionTitleRef}>
+            <h2
+              className={`text-3xl pb-10 font-bold tracking-tight sm:text-4xl ${
+                sectionTitleIsVisible ? "animate-fadeInRight" : ""
+              }`}
+            >
               Work
             </h2>
           </div>
-          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 pt-10 lg:mx-0 lg:max-w-none lg:grid-rows-3">
+          <div
+            className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 pt-10 lg:mx-0 lg:max-w-none lg:grid-rows-3"
+            ref={workSectionRef}
+          >
             {src.map((elem, i) => (
               <React.Fragment key={elem.key}>
                 <article
-                  style={{ order: -i }}
-                  className="flex max-w-xl flex-col items-start py-4 sm:py-8 justify-between border-t first:border-b border-gray-700 dark:border-gray-400"
+                  className={`article flex flex-col items-start py-4 sm:py-8 justify-between border-t last:border-b border-gray-700 dark:border-gray-400 ${
+                    workSectionIsVisible ? "animate-fadeInRight" : ""
+                  }`}
                 >
                   <div className="flex items-center gap-x-4 text-xs">
                     <time datetime={elem.date} className="">
