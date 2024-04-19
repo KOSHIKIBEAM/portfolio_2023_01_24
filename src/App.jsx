@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SkillsSection from "./components/SkillsSection";
@@ -31,8 +32,8 @@ function App() {
                 <Header />
                 <main className="lg:pt-24 pt-12 w-full lg:w-1/2 lg:py-24">
                   <WorkSection src={WorkList} />
-                  <AboutSection />
                   <SkillsSection />
+                  <AboutSection />
                   <Footer />
                 </main>
               </div>

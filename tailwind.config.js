@@ -1,3 +1,5 @@
+import { Opacity } from "@mui/icons-material";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: "class",
@@ -23,6 +25,8 @@ export default {
         bound1: "bound1 3s infinite",
         bound2: "bound2 3s infinite",
         bound3: "bound3 3s infinite",
+        fadeInRight: "fadeInRight 1s backwards",
+        fadeInLeft: "fadeInLeft 1s backwards",
       },
       keyframes: {
         circleAnim: {
@@ -71,6 +75,36 @@ export default {
           "86%": { transform: "translateY(0)" },
           "92%": { transform: "translateY(0)" },
           "100%": { transform: "translateY(0)" },
+        },
+        fadeInRight: {
+          "0%": {
+            transform: "translateX(250px)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateX(0px)",
+            opacity: "1",
+          },
+        },
+        fadeInLeft: {
+          "0%": {
+            transform: "translateX(-250px)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateX(0px)",
+            opacity: "1",
+          },
+        },
+        animateRocket2: {
+          "0%": { transform: "scale(1) rotate(10deg)" },
+          "5%": { transform: "scale(1.25) rotate(-15deg)" },
+          "10%": { transform: "scale(1.5) rotate(5deg)" },
+          "15%": { transform: "scale(1.75) rotate(-10deg)" },
+          "20%": { transform: "transform: scale(2) rotate(0)" },
+          "100%": {
+            transform: "scale(20) translate3D(100vw, -100vh, 0) rotate(0)",
+          },
         },
       },
       fontFamily: {

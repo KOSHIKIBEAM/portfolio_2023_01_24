@@ -1,4 +1,5 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 const SkillsSection = () => {
   const Base = {
@@ -30,16 +31,30 @@ const SkillsSection = () => {
     strokeDashoffset: "calc(252 - (252 * 50) / 100)",
     stroke: "#03a9f4",
   };
+  const { ref: skillSectionRef, inView: skillSectionIsVisible } = useInView();
+  const { ref: sectionTitleRef, inView: sectionTitleIsVisible } = useInView();
   return (
     <section
       id="skill"
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+      ref={sectionTitleRef}
     >
-      <h2 className="text-3xl font-bold pb-10 tracking-tight sm:text-4xl">
+      <h2
+        className={`text-3xl font-bold pb-10 tracking-tight sm:text-4xl ${
+          sectionTitleIsVisible ? "animate-fadeInRight" : ""
+        }`}
+      >
         Skill
       </h2>
-      <div className="flex justify-center items-center flex-wrap">
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col">
+      <div
+        className="flex justify-center items-center flex-wrap"
+        ref={skillSectionRef}
+      >
+        <div
+          className={`w-1/3 sm:w-1/5 delay500 relative flex justify-center items-center flex-col ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -65,7 +80,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col">
+        <div
+          className={`w-1/3 sm:w-1/5 delay500 relative flex justify-center items-center flex-col ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -91,7 +110,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col">
+        <div
+          className={`w-1/3 sm:w-1/5 delay500 relative flex justify-center items-center flex-col ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -117,7 +140,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay500_1000 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -143,7 +170,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay500_1000 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -169,7 +200,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1000 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -195,7 +230,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1000_1500 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -221,7 +260,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1000_1500 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -247,7 +290,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1000_1500 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -273,7 +320,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1000_2000 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -299,7 +350,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1500_2000 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -325,7 +380,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1500_2000 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -351,7 +410,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1500_2500 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -377,7 +440,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1500_2500 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle
@@ -405,7 +472,11 @@ const SkillsSection = () => {
             </h3>
           </div>
         </div>
-        <div className="w-1/3 sm:w-1/5 relative flex justify-center items-center flex-col mt-[3rem]">
+        <div
+          className={`w-1/3 sm:w-1/5 delay1500_2500 relative flex justify-center items-center flex-col mt-[3rem] ${
+            skillSectionIsVisible ? "animate-fadeInRight" : ""
+          }`}
+        >
           <div className="flex justify-center items-center flex-col">
             <svg className="-rotate-90 w-[90px] h-[90px]">
               <circle

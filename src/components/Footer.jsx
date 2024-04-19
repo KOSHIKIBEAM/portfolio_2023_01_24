@@ -1,9 +1,18 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 const Footer = () => {
+  const { ref: footerSectionRef, inView: footerSectionIsVisible } = useInView();
   return (
-    <footer className="max-w-md mx-6 lg:mx-8 pb-16 text-sm text-slate-600 dark:text-slate-400 sm:pb-0">
-      <p>
+    <footer
+      className="max-w-md mx-6 lg:mx-8 pb-16 text-sm text-slate-600 dark:text-slate-400 sm:pb-0"
+      ref={footerSectionRef}
+    >
+      <p
+        className={`delay3000 ${
+          footerSectionIsVisible ? "animate-fadeInRight" : ""
+        }`}
+      >
         <a
           href="https://www.figma.com/"
           className="border-b-[1px] border-b-sky-700 dark:border-b-sky-300 hover:text-sky-600 focus-visible:text-sky-700 dark:hover:text-sky-300 dark:focus-visible:text-sky-300 transition duration-300"
