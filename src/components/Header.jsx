@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              スタジオジブリに「名誉パルムドール」…カンヌ国際映画祭
+              大谷翔平、メジャー通算176号本塁打　松井秀喜超え
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
