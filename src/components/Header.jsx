@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              大谷翔平、メジャー通算176号本塁打　松井秀喜超え
+              Ｕ―２３日本、韓国に敗れ２位通過…準々決勝で開催国カタールと対戦
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              大谷翔平、メジャー通算176号本塁打　松井秀喜超え
+              Ｕ―２３日本、韓国に敗れ２位通過…準々決勝で開催国カタールと対戦
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
