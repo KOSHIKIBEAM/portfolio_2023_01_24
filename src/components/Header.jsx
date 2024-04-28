@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              Ｕ２３代表、カタールに延長で勝ち４強入り…準決勝に勝てば五輪切符
+              大谷翔平に毎打席の激しいブーイング…ドジャースの連勝６でストップ
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
