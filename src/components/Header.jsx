@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              万博ボランティア、目標の２．７倍集まる…応募５万５０００人で抽選に
+              Ｕ－２３アジア杯は日本がウズベキスタン破り優勝
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
