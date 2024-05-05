@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              バフェット氏、日本の商社株投資に「圧倒的な説得力」
+              イギリス地方選で与党・保守党が大敗、支持率最低レベル…１４年ぶり政権交代が現実味
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
