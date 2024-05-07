@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              イギリス地方選で与党・保守党が大敗、支持率最低レベル…１４年ぶり政権交代が現実味
+              ディズニーシー新エリア、「アナ雪」アレンデール城も…総投資額３２００億円
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
