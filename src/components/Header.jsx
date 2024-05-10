@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              Ｕ―２３日本、韓国に敗れ２位通過…準々決勝で開催国カタールと対戦
+              大谷のドジャース・ユニホーム、約１５６０万円で落札
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
