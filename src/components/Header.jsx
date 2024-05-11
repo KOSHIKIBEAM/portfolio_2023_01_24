@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              大谷のドジャース・ユニホーム、約１５６０万円で落札
+              横浜Ｍがアルアインに逆転勝ち、ＡＣＬ決勝第１戦…途中出場の渡辺皓が勝ち越し弾
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
