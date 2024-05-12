@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              横浜Ｍがアルアインに逆転勝ち、ＡＣＬ決勝第１戦…途中出場の渡辺皓が勝ち越し弾
+              「移住の島」五島へ　異例の転入超過、若い世代が担う
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
