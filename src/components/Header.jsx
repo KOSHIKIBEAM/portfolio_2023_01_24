@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              「移住の島」五島へ　異例の転入超過、若い世代が担う
+              イスラエル軍がラファで攻撃強める、２４時間で８２人が死亡…国連スタッフも犠牲に
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
