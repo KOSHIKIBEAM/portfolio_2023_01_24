@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              イスラエル軍がラファで攻撃強める、２４時間で８２人が死亡…国連スタッフも犠牲に
+              国際ハッカー　再び活発化　摘発の「ロックビット」　警察庁など名指し「報復」宣言
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
