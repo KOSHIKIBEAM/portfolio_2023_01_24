@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              国際ハッカー　再び活発化　摘発の「ロックビット」　警察庁など名指し「報復」宣言
+              上川外相、静岡知事選の応援演説で「生まずして何が女性でしょうか」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
