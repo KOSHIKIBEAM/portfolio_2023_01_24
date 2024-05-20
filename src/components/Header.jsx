@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              上川外相、静岡知事選の応援演説で「生まずして何が女性でしょうか」
+              愛犬と大阪万博入場ＯＫ、１日１００匹・平日の１０日間限定…大型犬や犬以外はＮＧ
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
