@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              愛犬と大阪万博入場ＯＫ、１日１００匹・平日の１０日間限定…大型犬や犬以外はＮＧ
+              ＷＢＣ優勝の「侍ジャパン」が能登半島地震被災地に２０００万円寄付…日本スポーツ賞の奨励金など
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
