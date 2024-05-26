@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ＷＢＣ優勝の「侍ジャパン」が能登半島地震被災地に２０００万円寄付…日本スポーツ賞の奨励金など
+              横浜Ｍ、ＡＣＬ初優勝ならず…アウェーでの決勝第２戦はアルアインに１―５で敗れる
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
