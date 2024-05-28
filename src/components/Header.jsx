@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              横浜Ｍ、ＡＣＬ初優勝ならず…アウェーでの決勝第２戦はアルアインに１―５で敗れる
+              四国や九州中心に記録的大雨、８９地点で５月最多降水量
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
