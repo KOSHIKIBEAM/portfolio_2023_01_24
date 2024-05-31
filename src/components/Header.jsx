@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              四国や九州中心に記録的大雨、８９地点で５月最多降水量
+              「Ｋアリーナ」と横浜駅をつなぐ歩道橋、利用開始前日に延期発表…設計ミスでのひび割れ発見
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
