@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              「Ｋアリーナ」と横浜駅をつなぐ歩道橋、利用開始前日に延期発表…設計ミスでのひび割れ発見
+              パリ五輪の聖火リレー、世界遺産・モンサンミシェルに到着
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
