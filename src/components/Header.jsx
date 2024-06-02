@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              パリ五輪の聖火リレー、世界遺産・モンサンミシェルに到着
+              定額減税、官邸ホームページやＸでもアピール開始…岸田首相周辺は「効果は夏以降に表れる」と自信
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
