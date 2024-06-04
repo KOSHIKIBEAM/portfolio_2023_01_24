@@ -25,9 +25,9 @@ export default {
         bound1: "bound1 3s infinite",
         bound2: "bound2 3s infinite",
         bound3: "bound3 3s infinite",
-        fadeInRight: "fadeInRight 1s backwards",
-        fadeInLeft: "fadeInLeft 1s backwards",
-        fadeInBottom: "fadeInBottom 1s backwards",
+        // fadeInRight: "fadeInRight 1s backwards",
+        // fadeInLeft: "fadeInLeft 1s backwards",
+        // fadeInBottom: "fadeInBottom 1s backwards",
       },
       keyframes: {
         circleAnim: {
