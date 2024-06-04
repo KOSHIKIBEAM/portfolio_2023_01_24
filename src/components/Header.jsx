@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              定額減税、官邸ホームページやＸでもアピール開始…岸田首相周辺は「効果は夏以降に表れる」と自信
+              「型式」５社３８車種不正　トヨタなど　６車種出荷停止
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
