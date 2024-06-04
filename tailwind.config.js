@@ -96,6 +96,16 @@ export default {
             opacity: "1",
           },
         },
+        fadeInBottom: {
+          "0%": {
+            transform: "translateY(50px)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
+        },
         animateRocket2: {
           "0%": { transform: "scale(1) rotate(10deg)" },
           "5%": { transform: "scale(1.25) rotate(-15deg)" },

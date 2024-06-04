@@ -41,7 +41,7 @@ const SkillsSection = () => {
     >
       <h2
         className={`text-3xl font-bold pb-10 tracking-tight sm:text-4xl ${
-          sectionTitleIsVisible ? "animate-fadeInRight" : ""
+          sectionTitleIsVisible ? "animate-fadeInBottom" : ""
         }`}
       >
         Skill
@@ -52,7 +52,7 @@ const SkillsSection = () => {
       >
         <div
           className={`w-1/3 sm:w-1/5 delay500 relative flex justify-center items-center flex-col ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -82,7 +82,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay500 relative flex justify-center items-center flex-col ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -112,7 +112,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay500 relative flex justify-center items-center flex-col ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -142,7 +142,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay500_1000 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -172,7 +172,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay500_1000 relative flex justify-center items-center flex-col mt-[3rem] sm:mt-[0px] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -202,7 +202,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1000 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -232,7 +232,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1000_1500 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -262,7 +262,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1000_1500 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -292,7 +292,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1000_1500 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -322,7 +322,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1000_2000 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -352,7 +352,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1500_2000 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -382,7 +382,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1500_2000 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -412,7 +412,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1500_2500 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -442,7 +442,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1500_2500 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">
@@ -474,7 +474,7 @@ const SkillsSection = () => {
         </div>
         <div
           className={`w-1/3 sm:w-1/5 delay1500_2500 relative flex justify-center items-center flex-col mt-[3rem] ${
-            skillSectionIsVisible ? "animate-fadeInRight" : ""
+            skillSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div className="flex justify-center items-center flex-col">

@@ -13,7 +13,7 @@ const AboutSection = () => {
     >
       <h2
         className={`text-3xl font-bold pb-10 tracking-tight sm:text-4xl delay2000 ${
-          sectionTitleIsVisible ? "animate-fadeInRight" : ""
+          sectionTitleIsVisible ? "animate-fadeInBottom" : ""
         }`}
       >
         About
@@ -21,7 +21,7 @@ const AboutSection = () => {
       <div ref={aboutSectionRef}>
         <div
           className={`delay2500 ${
-            aboutSectionIsVisible ? "animate-fadeInRight" : ""
+            aboutSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           長崎市を拠点にホームページ制作を行うフロントエンドエンジニアです。

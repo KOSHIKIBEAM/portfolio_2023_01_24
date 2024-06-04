@@ -16,7 +16,7 @@ const WorkSection = ({ src, github_url }) => {
           <div className="mx-auto max-w-2xl lg:mx-0" ref={sectionTitleRef}>
             <h2
               className={`text-3xl pb-10 font-bold tracking-tight sm:text-4xl ${
-                sectionTitleIsVisible ? "animate-fadeInRight" : ""
+                sectionTitleIsVisible ? "animate-fadeInBottom" : ""
               }`}
             >
               Work
@@ -30,7 +30,7 @@ const WorkSection = ({ src, github_url }) => {
               <React.Fragment key={elem.key}>
                 <article
                   className={`article flex flex-col items-start py-4 sm:py-8 justify-between border-t last:border-b border-gray-700 dark:border-gray-400 ${
-                    workSectionIsVisible ? "animate-fadeInRight" : ""
+                    workSectionIsVisible ? "animate-fadeInBottom" : ""
                   }`}
                 >
                   <div className="flex items-center gap-x-4 text-xs">

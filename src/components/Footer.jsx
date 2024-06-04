@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <p
         className={`delay3000 ${
-          footerSectionIsVisible ? "animate-fadeInRight" : ""
+          footerSectionIsVisible ? "animate-fadeInBottom" : ""
         }`}
       >
         <a
