@@ -99,7 +99,7 @@ export default {
         },
         fadeInBottom: {
           "0%": {
-            transform: "translateY(-50px)",
+            transform: "translateY(50px)",
             opacity: "0",
           },
           "100%": {
