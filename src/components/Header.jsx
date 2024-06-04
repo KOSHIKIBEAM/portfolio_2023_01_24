@@ -33,7 +33,7 @@ const Header = () => {
       {width > 1024 ? (
         <div
           className={`lg:flex h-full lg:flex-col lg:justify-between ${
-            headerSectionIsVisible ? "animate-fadeInLeft" : ""
+            headerSectionIsVisible ? "animate-fadeInBottom" : ""
           }`}
         >
           <div>
