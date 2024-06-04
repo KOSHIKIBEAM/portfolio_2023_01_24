@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              「型式」５社３８車種不正　トヨタなど　６車種出荷停止
+              水原一平被告が連邦地裁に出廷、有罪認める…量刑は１０月２５日言い渡し
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ディズニーシー新エリア、「アナ雪」アレンデール城も…総投資額３２００億円
+              水原一平被告が連邦地裁に出廷、有罪認める…量刑は１０月２５日言い渡し
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
