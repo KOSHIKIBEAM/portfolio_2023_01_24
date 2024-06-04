@@ -135,10 +135,10 @@ const Header = () => {
           <nav className="nav hidden lg:block my-[25px]">
             <ul>
               <li className="pb-14 pl-10">
-                <a href="#about">
+                <a href="#work">
                   <span className="relative flex h-3 w-3">
-                    <span className="animate-bound1 absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
-                    <span className="text-lg">about</span>
+                    <span className="animate-bound3 absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
+                    <span className="text-lg">work</span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                   </span>
                 </a>
@@ -153,10 +153,10 @@ const Header = () => {
                 </a>
               </li>
               <li className="pb-14 pl-10">
-                <a href="#work">
+                <a href="#about">
                   <span className="relative flex h-3 w-3">
-                    <span className="animate-bound3 absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
-                    <span className="text-lg">work</span>
+                    <span className="animate-bound1 absolute top-1/2 left-[-1.8rem] inline-flex h-full w-full rounded-full bg-sky-400 opacity-100"></span>
+                    <span className="text-lg">about</span>
                     <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                   </span>
                 </a>
