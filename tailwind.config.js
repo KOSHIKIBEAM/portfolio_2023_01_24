@@ -27,6 +27,7 @@ export default {
         bound3: "bound3 3s infinite",
         fadeInRight: "fadeInRight 1s backwards",
         fadeInLeft: "fadeInLeft 1s backwards",
+        fadeInBottom: "fadeInBottom 1s backwards",
       },
       keyframes: {
         circleAnim: {
@@ -98,7 +99,7 @@ export default {
         },
         fadeInBottom: {
           "0%": {
-            transform: "translateY(50px)",
+            transform: "translateY(-50px)",
             opacity: "0",
           },
           "100%": {
