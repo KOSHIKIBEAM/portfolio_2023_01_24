@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              水原一平被告が連邦地裁に出廷、有罪認める…量刑は１０月２５日言い渡し
+              イスラエル軍、野外音楽祭から拉致された人質４人を救出…パレスチナ・ガザ中部で軍事作戦
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              水原一平被告が連邦地裁に出廷、有罪認める…量刑は１０月２５日言い渡し
+              イスラエル軍、野外音楽祭から拉致された人質４人を救出…パレスチナ・ガザ中部で軍事作戦
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
