@@ -62,7 +62,9 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ふるさと納税の返礼で電車運転体験…京成電鉄、千葉・酒々井の養成所でプログラム提供　
+              トヨタの不正行為６事例、「国連基準」も満たさず…
+              <br />
+              国交省「欧州でも不正と判断される可能性高い」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +131,9 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ふるさと納税の返礼で電車運転体験…京成電鉄、千葉・酒々井の養成所でプログラム提供　
+              トヨタの不正行為６事例、「国連基準」も満たさず…
+              <br />
+              国交省「欧州でも不正と判断される可能性高い」　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
