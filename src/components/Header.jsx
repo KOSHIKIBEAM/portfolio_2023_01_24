@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ハマス、攻撃完全停止要求…新停戦案に回答　イスラエルは批判
+              欧米「トランプ氏」警戒　米大統領選見据え　ウクライナ長期支援、決意
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ハマス、攻撃完全停止要求…新停戦案に回答　イスラエルは批判　
+              欧米「トランプ氏」警戒　米大統領選見据え　ウクライナ長期支援、決意　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
