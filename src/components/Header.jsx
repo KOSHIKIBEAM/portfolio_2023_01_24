@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              欧米「トランプ氏」警戒　米大統領選見据え　ウクライナ長期支援、決意
+              九州北部が梅雨入り、平年より１３日遅く
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              欧米「トランプ氏」警戒　米大統領選見据え　ウクライナ長期支援、決意　
+              九州北部が梅雨入り、平年より１３日遅く　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
