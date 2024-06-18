@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              九州北部が梅雨入り、平年より１３日遅く
+              １番大谷翔平が大暴れ、３安打１打点１盗塁
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              九州北部が梅雨入り、平年より１３日遅く　
+              １番大谷翔平が大暴れ、３安打１打点１盗塁　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
