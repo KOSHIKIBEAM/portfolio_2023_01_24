@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              歌手のジャスティン・ティンバーレイク氏、飲酒運転容疑で逮捕
+              藤井聡太竜王が八冠陥落…叡王戦で伊藤匠七段に敗れる、全八冠独占は２５４日間
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              歌手のジャスティン・ティンバーレイク氏、飲酒運転容疑で逮捕　
+              藤井聡太竜王が八冠陥落…叡王戦で伊藤匠七段に敗れる、全八冠独占は２５４日間　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
