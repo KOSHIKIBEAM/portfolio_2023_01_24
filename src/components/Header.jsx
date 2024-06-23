@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              藤井聡太竜王が八冠陥落…叡王戦で伊藤匠七段に敗れる、全八冠独占は２５４日間
+              天皇、皇后両陛下がロンドンのホテル到着…「陛下」「雅子さま」の声に笑顔で手を振る姿も
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              藤井聡太竜王が八冠陥落…叡王戦で伊藤匠七段に敗れる、全八冠独占は２５４日間　
+              天皇、皇后両陛下がロンドンのホテル到着…「陛下」「雅子さま」の声に笑顔で手を振る姿も　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
