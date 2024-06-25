@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              北海道むかわ町のトンネルで陸上自衛隊の車両と大型バスが衝突…隊員１人死亡、７人負傷
+              ヤクルト宅配スタッフが不用品回収、メルカリ出品…広島県の２市で実証実験
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              北海道むかわ町のトンネルで陸上自衛隊の車両と大型バスが衝突…隊員１人死亡、７人負傷　
+              ヤクルト宅配スタッフが不用品回収、メルカリ出品…広島県の２市で実証実験　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
