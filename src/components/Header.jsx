@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              「ハリー・ポッター」第１作の表紙イラスト、予想を大きく上回る約３億円で落札…ＮＹで競売
+              移住してバス運転手として就職すれば１００万円、家賃の半額も１年間補助
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              「ハリー・ポッター」第１作の表紙イラスト、予想を大きく上回る約３億円で落札…ＮＹで競売　
+              移住してバス運転手として就職すれば１００万円、家賃の半額も１年間補助　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
