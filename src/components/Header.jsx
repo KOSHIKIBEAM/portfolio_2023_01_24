@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              移住してバス運転手として就職すれば１００万円、家賃の半額も１年間補助
+              能登地震　輪島４地区　集団移転検討　高齢化・過疎　災害時孤立防ぐ
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              移住してバス運転手として就職すれば１００万円、家賃の半額も１年間補助　
+              能登地震　輪島４地区　集団移転検討　高齢化・過疎　災害時孤立防ぐ　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
