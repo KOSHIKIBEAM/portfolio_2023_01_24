@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              能登地震　輪島４地区　集団移転検討　高齢化・過疎　災害時孤立防ぐ
+              Ｈ３ロケットの打ち上げ成功、「だいち４号」分離…実用化に大きく前進
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              能登地震　輪島４地区　集団移転検討　高齢化・過疎　災害時孤立防ぐ　
+              Ｈ３ロケットの打ち上げ成功、「だいち４号」分離…実用化に大きく前進　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
