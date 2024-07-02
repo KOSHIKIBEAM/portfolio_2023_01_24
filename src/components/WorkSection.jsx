@@ -59,6 +59,13 @@ const WorkSection = ({ src, github_url }) => {
                       </h3>
                     </div>
                   </a>
+                  {(() => {
+                    if (elem.text) {
+                      return <p className="pb-3 text-xs"> {elem.text}</p>;
+                    } else {
+                      return null;
+                    }
+                  })()}
 
                   <div className="flex items-center w-full">
                     {(() => {
