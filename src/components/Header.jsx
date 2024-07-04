@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              渋沢・津田・北里きょう発行　旧紙幣「交換」詐欺ご用心
+              午前中に猛暑日、静岡市で３６・５度…１５都県に「熱中症警戒アラート」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              渋沢・津田・北里きょう発行　旧紙幣「交換」詐欺ご用心　
+              午前中に猛暑日、静岡市で３６・５度…１５都県に「熱中症警戒アラート」　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
