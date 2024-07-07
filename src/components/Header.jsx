@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              東海道新幹線「のぞみ１２号」停電、上下線で運転再開…運転見合わせ３時間
+              ２２歳・杉浦悠太がプロ転向後ツアー初優勝…ゴルフ日本プロ選手権、「目標は賞金王」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              東海道新幹線「のぞみ１２号」停電、上下線で運転再開…運転見合わせ３時間　
+              ２２歳・杉浦悠太がプロ転向後ツアー初優勝…ゴルフ日本プロ選手権、「目標は賞金王」　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
