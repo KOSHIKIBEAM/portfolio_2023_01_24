@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ２２歳・杉浦悠太がプロ転向後ツアー初優勝…ゴルフ日本プロ選手権、「目標は賞金王」
+              都知事選で現職の小池百合子氏が当選、２位石丸伸二氏に大差…蓮舫氏は３位
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ２２歳・杉浦悠太がプロ転向後ツアー初優勝…ゴルフ日本プロ選手権、「目標は賞金王」　
+              都知事選で現職の小池百合子氏が当選、２位石丸伸二氏に大差…蓮舫氏は３位　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
