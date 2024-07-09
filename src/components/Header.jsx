@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              都知事選で現職の小池百合子氏が当選、２位石丸伸二氏に大差…蓮舫氏は３位
+              多重リース契約で厨房機器の購入代金８７００万円を詐取か、「レモホル酒場」経営者ら２人逮捕…大阪府警
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              都知事選で現職の小池百合子氏が当選、２位石丸伸二氏に大差…蓮舫氏は３位　
+              多重リース契約で厨房機器の購入代金８７００万円を詐取か、「レモホル酒場」経営者ら２人逮捕…大阪府警　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
