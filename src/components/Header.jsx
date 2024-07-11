@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              多重リース契約で厨房機器の購入代金８７００万円を詐取か、「レモホル酒場」経営者ら２人逮捕…大阪府警
+              ウクライナ選手団、パリ五輪は過去最少１４０人…「空襲警報が継続して鳴る中で練習できない」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              多重リース契約で厨房機器の購入代金８７００万円を詐取か、「レモホル酒場」経営者ら２人逮捕…大阪府警　
+              ウクライナ選手団、パリ五輪は過去最少１４０人…「空襲警報が継続して鳴る中で練習できない」　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
