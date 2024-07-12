@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ウクライナ選手団、パリ五輪は過去最少１４０人…「空襲警報が継続して鳴る中で練習できない」
+              ハリス氏を「トランプ副大統領」、ゼレンスキー氏を「プーチン大統領」…バイデン氏が言い間違え
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ウクライナ選手団、パリ五輪は過去最少１４０人…「空襲警報が継続して鳴る中で練習できない」　
+              ハリス氏を「トランプ副大統領」、ゼレンスキー氏を「プーチン大統領」…バイデン氏が言い間違え　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
