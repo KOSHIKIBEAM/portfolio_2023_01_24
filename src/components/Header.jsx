@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              トランプ氏の集会で複数の銃声のような音、トランプ氏の耳付近から流血
+              トランプ氏を大統領候補に正式指名…米共和党
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              トランプ氏の集会で複数の銃声のような音、トランプ氏の耳付近から流血　
+              トランプ氏を大統領候補に正式指名…米共和党　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
