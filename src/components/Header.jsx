@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              トランプ氏を大統領候補に正式指名…米共和党
+              大谷翔平、真美子さんとレッドカーペット…ドレス姿に「普段にはない格好だと思うので楽しみたい」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              トランプ氏を大統領候補に正式指名…米共和党　
+              大谷翔平、真美子さんとレッドカーペット…ドレス姿に「普段にはない格好だと思うので楽しみたい」　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
