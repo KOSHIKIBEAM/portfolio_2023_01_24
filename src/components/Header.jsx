@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              副大統領候補のテレビ討論会、トランプ氏陣営が応じず「民主党の候補が誰になるのか分からない」
+              ウィンドウズ障害、ブルースクリーン表示で操作不能に…航空便やレジのシステムなど世界規模で影響か
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              副大統領候補のテレビ討論会、トランプ氏陣営が応じず「民主党の候補が誰になるのか分からない」　
+              ウィンドウズ障害、ブルースクリーン表示で操作不能に…航空便やレジのシステムなど世界規模で影響か　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
