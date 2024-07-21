@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ウィンドウズ障害、ブルースクリーン表示で操作不能に…航空便やレジのシステムなど世界規模で影響か
+              バイデン氏、大統領選から撤退を表明
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ウィンドウズ障害、ブルースクリーン表示で操作不能に…航空便やレジのシステムなど世界規模で影響か　
+              バイデン氏、大統領選から撤退を表明　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
