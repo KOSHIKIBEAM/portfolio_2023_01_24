@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              バイデン氏、大統領選から撤退を表明
+              阪神・オリックスＶパレードを担当の兵庫県元課長が死亡…斎藤知事告発文書で疲弊し療養中と指摘
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              バイデン氏、大統領選から撤退を表明　
+              阪神・オリックスＶパレードを担当の兵庫県元課長が死亡…斎藤知事告発文書で疲弊し療養中と指摘　
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
