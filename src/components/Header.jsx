@@ -62,8 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              阪神・オリックスＶパレードを担当の兵庫県元課長が死亡…
-              <br /> 斎藤知事告発文書で疲弊し療養中と指摘
+              山形県６市町村への大雨特別警報、警報に切り替え…気象庁
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -130,8 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              阪神・オリックスＶパレードを担当の兵庫県元課長が死亡…
-              <br /> 斎藤知事告発文書で疲弊し療養中と指摘　
+              山形県６市町村への大雨特別警報、警報に切り替え…気象庁
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
