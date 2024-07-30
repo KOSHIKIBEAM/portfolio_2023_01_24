@@ -62,9 +62,8 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              なでしこＪ、大逆転でブラジル破る…
-              <br />
-              ロスタイムに熊谷紗希の同点ＰＫ＆谷川萌々子のスーパーゴール
+              体操男子団体、日本が大逆転で「金」奪回… <br />
+              最終鉄棒で３・２６７点差をひっくり返す
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -131,9 +130,8 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              なでしこＪ、大逆転でブラジル破る…
-              <br />
-              ロスタイムに熊谷紗希の同点ＰＫ＆谷川萌々子のスーパーゴール
+              体操男子団体、日本が大逆転で「金」奪回… <br />
+              最終鉄棒で３・２６７点差をひっくり返す
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
