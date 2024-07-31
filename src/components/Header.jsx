@@ -62,8 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              体操男子団体、日本が大逆転で「金」奪回… <br />
-              最終鉄棒で３・２６７点差をひっくり返す
+              体操団体「金」　永瀬連覇　柔道男子８１キロ級
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -130,8 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              体操男子団体、日本が大逆転で「金」奪回… <br />
-              最終鉄棒で３・２６７点差をひっくり返す
+              体操団体「金」　永瀬連覇　柔道男子８１キロ級
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
