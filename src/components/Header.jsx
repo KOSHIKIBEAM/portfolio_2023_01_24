@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              体操団体「金」　永瀬連覇　柔道男子８１キロ級
+              フェンシング女子サーブル団体、日本が銅メダル
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              体操団体「金」　永瀬連覇　柔道男子８１キロ級
+              フェンシング女子サーブル団体、日本が銅メダル
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
