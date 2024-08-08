@@ -62,7 +62,8 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ブラックマンデー超えの株価急落、崩壊か持ち直しか…「過剰反応」「本質的に違う」と指摘も
+              卓球団体・日本―ドイツ［速報］張本美和が第４戦で快勝、
+              <br /> 「銀」以上確定…中国戦で「金」懸ける
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +130,8 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ブラックマンデー超えの株価急落、崩壊か持ち直しか…「過剰反応」「本質的に違う」と指摘も
+              卓球団体・日本―ドイツ［速報］張本美和が第４戦で快勝、
+              <br /> 「銀」以上確定…中国戦で「金」懸ける
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
