@@ -62,8 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              卓球団体・日本―ドイツ［速報］張本美和が第４戦で快勝、
-              <br /> 「銀」以上確定…中国戦で「金」懸ける
+              やり投げ北口榛花が優勝、トラック・フィールド種目で日本女子初の金メダル
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -130,8 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              卓球団体・日本―ドイツ［速報］張本美和が第４戦で快勝、
-              <br /> 「銀」以上確定…中国戦で「金」懸ける
+              やり投げ北口榛花が優勝、トラック・フィールド種目で日本女子初の金メダル
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
