@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              やり投げ北口榛花が優勝、トラック・フィールド種目で日本女子初の金メダル
+              パリ五輪「金」最多２０個、レスリングが量産・初のフェンシングも２…競泳は３大会ぶりゼロ
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              やり投げ北口榛花が優勝、トラック・フィールド種目で日本女子初の金メダル
+              パリ五輪「金」最多２０個、レスリングが量産・初のフェンシングも２…競泳は３大会ぶりゼロ
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
