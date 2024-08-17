@@ -62,9 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              衆院選への懸念、岸田首相の「決断」に大きく影響…
-              <br />
-              情勢厳しく「辞めることでしか党は守れない」
+              東海道新幹線、始発から東京―名古屋間で運転再開…台風７号
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -131,9 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              衆院選への懸念、岸田首相の「決断」に大きく影響…
-              <br />
-              情勢厳しく「辞めることでしか党は守れない」
+              東海道新幹線、始発から東京―名古屋間で運転再開…台風７号
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
