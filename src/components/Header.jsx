@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              東海道新幹線、始発から東京―名古屋間で運転再開…台風７号
+              新千歳空港、ハサミ紛失によるダイヤ混乱で宿泊希望者にターミナルビル開放…寝袋を支給
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              東海道新幹線、始発から東京―名古屋間で運転再開…台風７号
+              新千歳空港、ハサミ紛失によるダイヤ混乱で宿泊希望者にターミナルビル開放…寝袋を支給
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
