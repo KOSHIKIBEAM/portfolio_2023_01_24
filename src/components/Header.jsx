@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              新千歳空港、ハサミ紛失によるダイヤ混乱で宿泊希望者にターミナルビル開放…寝袋を支給
+              自民総裁選　林・河野・石破氏出馬へ　閣僚ら１０人超意欲
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              新千歳空港、ハサミ紛失によるダイヤ混乱で宿泊希望者にターミナルビル開放…寝袋を支給
+              自民総裁選　林・河野・石破氏出馬へ　閣僚ら１０人超意欲
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
