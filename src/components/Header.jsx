@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              小泉進次郎・元環境相、総裁選出馬へ…周囲に「党を変えるための真剣勝負にしないと」
+              ＪＲ京浜東北線の運転士、１０分間にわたり断続的に居眠り…乗客が指摘し判明
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              小泉進次郎・元環境相、総裁選出馬へ…周囲に「党を変えるための真剣勝負にしないと」
+              ＪＲ京浜東北線の運転士、１０分間にわたり断続的に居眠り…乗客が指摘し判明
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
