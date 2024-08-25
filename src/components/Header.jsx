@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ＪＲ京浜東北線の運転士、１０分間にわたり断続的に居眠り…乗客が指摘し判明
+              ベーブ・ルースの「予告ホームラン」ユニホーム、３５億円で落札…過去最高額
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ＪＲ京浜東北線の運転士、１０分間にわたり断続的に居眠り…乗客が指摘し判明
+              ベーブ・ルースの「予告ホームラン」ユニホーム、３５億円で落札…過去最高額
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
