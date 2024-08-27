@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ベーブ・ルースの「予告ホームラン」ユニホーム、３５億円で落札…過去最高額
+              非常に強い台風１０号、九州南部に２９日頃接近へ…中心気圧は９４０ヘクト・パスカル
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              ベーブ・ルースの「予告ホームラン」ユニホーム、３５億円で落札…過去最高額
+              非常に強い台風１０号、九州南部に２９日頃接近へ…中心気圧は９４０ヘクト・パスカル
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
