@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              非常に強い台風１０号、九州南部に２９日頃接近へ…中心気圧は９４０ヘクト・パスカル
+              イスラエル軍がガザを広範囲に攻撃、パレスチナ人３４人死亡…避難命令を出したと主張
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              非常に強い台風１０号、九州南部に２９日頃接近へ…中心気圧は９４０ヘクト・パスカル
+              イスラエル軍がガザを広範囲に攻撃、パレスチナ人３４人死亡…避難命令を出したと主張
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
