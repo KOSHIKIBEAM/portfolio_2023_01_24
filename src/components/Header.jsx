@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              イスラエル軍がガザを広範囲に攻撃、パレスチナ人３４人死亡…避難命令を出したと主張
+              人口減っても列島「総ごみ屋敷」　処分場、20年後に満杯
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              イスラエル軍がガザを広範囲に攻撃、パレスチナ人３４人死亡…避難命令を出したと主張
+              人口減っても列島「総ごみ屋敷」　処分場、20年後に満杯
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
