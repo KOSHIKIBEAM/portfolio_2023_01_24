@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              人口減っても列島「総ごみ屋敷」　処分場、20年後に満杯
+              兵庫県知事、告発文書を渡し「徹底的に調べてくれ」と副知事に指示…「すぐ調べろと」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              人口減っても列島「総ごみ屋敷」　処分場、20年後に満杯
+              兵庫県知事、告発文書を渡し「徹底的に調べてくれ」と副知事に指示…「すぐ調べろと」
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
