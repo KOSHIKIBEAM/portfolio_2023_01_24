@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              兵庫県知事、告発文書を渡し「徹底的に調べてくれ」と副知事に指示…「すぐ調べろと」
+              大谷翔平、メジャー史上初の５０－５０！
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
@@ -129,7 +129,7 @@ const Header = () => {
               </a>
             </p>
             <h3 className="mt-10 text-xs sm:text-sm font-normal tracking-tight">
-              兵庫県知事、告発文書を渡し「徹底的に調べてくれ」と副知事に指示…「すぐ調べろと」
+              大谷翔平、メジャー史上初の５０－５０！
             </h3>
           </div>
           <nav className="nav hidden lg:block my-[25px]">
